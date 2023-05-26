@@ -175,7 +175,7 @@ vignettes/*.pdf
 
 # pkgdown site
 docs/
-
+*.DS_store
 # translation temp files
 po/*~
 
@@ -192,3 +192,4 @@ rsconnect/
 ### CUSTOM ###
 
 data/
+.DS_Store
