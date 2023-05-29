@@ -30,9 +30,9 @@ We used two sources of data for our research:<br>
 ### Data Challenges:
 Throughout the data collection section of our investigation our team encountered several challenges.<br>
 
-#### Step 1 Challenges
+#### Step 1
 In Step 1, our objective was to investigate the top 10 artists of the past 5 years using Billboard’s weekly ‘Billboard Hot 100’ chart. Below is a cropped screenshot of the Billboard chart.<br>
-<img src="./Billboard Chart.png" style="height:65%;width:65%">
+<img src="./Billboard Chart.png" style="height:45%;width:65%">
 
 Challenge|Solution|Outcome
 :---|:---|:---
@@ -41,7 +41,7 @@ A major hurdle we faced was the absence of a direct Billboard API to access the 
 <img width="484" alt="Screenshot 2023-05-29 at 12 32 09" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/12870658/54f6ef69-a7f6-4d7f-97d0-b0bee2ea9404">
 
 
-#### Step 2 Challenges
+#### Step 2
 In Step 2, our objective was to investigate the audio features of the top 50 songs per month over the past five years.
 
 Challenge|Solution|Outcome
