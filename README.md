@@ -1,153 +1,85 @@
+# Envision.github.io
 
-# A Practical Workflow for Data Science Projects
+# "Tuning into your tastes": Exploring popular song features and trends
+___
 
-This project is intended as a template structure for data science projects. Its main intended use is for teams within organizations but we see no reason why you would not benefit from it even if you are coding solo, participating in a data hackathon or are in an academic group, doing exploratory, statistical analysis or algorithm modelling.
-
-This is a standalone **template project** that can be used as a starting point for any data science project. It is not a framework, a library, or a package. It is a template that you can use to start your own project. It is not intended to be a one-size-fits-all solution, but rather a starting point for you to build your own project structure.
-
-_If you like this project, please consider giving it a ⭐️!_
-
-# 👥 **Team**
-
-- [Jon](http://github.com/jonjoncardoso) as the core developer
-
-**People who have contributed to this course in the past:**
-
-- [Karina Moura](https://github.com/kvmoura). _A stellar project manager!_
-- [Natalia Del Coco](https://github.com/NataliaDelCoco). _She is taking her van to the mountains for a while._
-- [Sara Luxmoore](https://github.com/SaraLuxmoore). _She can be seen doing cool research-related stuff in Italy these days._
-
-# Initial repository setup
-
-Follow the instructions below to make use of this template.
-
-1. Create a new repository on GitHub using this template. You can do this by clicking on the green "Use this template" button on the top right of this page. 
-
-    ![Illustration of how to use this template](https://user-images.githubusercontent.com/896254/224554953-9819f73a-fdd1-4045-a183-dfa7d3601121.png)
-
-2. Give your project a name and description. You can also choose to make the repository **private** if you wish. 
-    - Leave "Include all branches" unchecked.
-
-3. GitHub will copy the files from this repository into your new repository and it will trigger an **Actions** workflow. This workflow will customize labels (to include emojis!) as well as Issues and Pull Request templates for your project.
-    - If you are not familiar with GitHub Actions, you can read more about it [here](https://docs.github.com/en/actions).
-
-4. Clone your new repository to your computer and start working on it!
-
-# First steps
-
-Once you have cloned your new repository to your computer, you might want to do the following:
-
-1. Update the `README.md` file to remove all things related to this template and add information about your project.
-
-2. Update the `LICENSE` file to reflect the license you want to use for your project. You can find a list of open-source licenses [here](https://choosealicense.com/).
-
-3. Modify the name of the `src/python/pkg_name` folder to reflect the name of your project. You can also remove the `pkg_name` folder if you are not planning on using custom Python packages.
-
-# More information
-
-Click on the links below to learn how to best use this template, and how to contribute to it.
-
-<details><summary>✋ How to contribute</summary>
-
-## ✋ How to contribute
-
-If you want to propose changes to the template, follow the steps below:
-
-1. Set up your environment by following the instructions in the [Dev Setup](#dev-setup) section.
-2. Create a new branch from `develop` and give it a meaningful name. Best practices involve using the following format: `<your-username>/<issue-number>-<short-description>`. For example, if you are working on issue #3, you could name your branch `jonjoncardoso/3-update-github-action`. Remember the [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) workflow!
-3. Make your changes and commit them to your branch. Remember to commit often and to write meaningful commit messages. If you are working on a specific issue, you can use the following format: `<gitmoji> #<issue-number> <commit-message>`. For example, if you are working on issue #3, you could write `📝 #3 Update GitHub Action`. 
-    - To add emojis on Windows, just type `Win + .` and then select the emoji you want. On Mac, it's the world symbol `⌘ + Ctrl + Space`.
-    - You can find a list of gitmojis [here](https://gitmoji.dev/). If you are not sure what to write, you can use `📝` for documentation, `🐛` for bug fixes, `🌟` for new features, and `♻️` for refactoring. You can also use `🔧` for general changes. If you are not sure, just ask! 
-4. When you are done, push all your commits and then open a [pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) to merge your branch into `develop`. You can do this by clicking on the "Compare & pull request" button on GitHub. Make sure to add a meaningful title and description to your pull request. If you are working on a specific issue, you can use the following format: `#<issue-number> <pull-request-title>`. For example, if you are working on issue #3, you could write `#3 Update GitHub Action`. Mark @jonjoncardoso as a reviewer.
-
-</details>
-
-<details><summary>🧰 Dev Setup</summary>
-
-## 🧰 Dev Setup
-
-### 🐍 The Python setup
-
-1. Install [Python 3.9](python.org) or higher on your computer.
-2. Install [anaconda](https://www.anaconda.com/products/individual) or [miniconda](https://docs.conda.io/en/latest/miniconda.html) on your computer.
-3. Create a new conda environment:
-
-    ```bash
-    conda create -y -n=venv-ds-workflow python=3.10.8
-    ```
-4. Activate the environment and make sure you have `pip` installed inside that environment:
-
-  ```console
-  # the exact `activate` command will vary depending on your OS
-  conda activate venv-ds-workflow 
-  ```
-
-💡 Remember to activate this particular `conda` environment whenever you reopen VSCode/the terminal.
-
-10. Install required libraries
-
-  ```console
-  pip install -r requirements.txt
-  ```
-
-Now, whenever you open a Jupyter Notebook, you should see the `venv-ds-workflow` kernel available. You can also run `jupyter kernelspec list` to see all the kernels available on your computer.
+## Executive Summary:
 
 
-### 📊 The R setup
+## Motivation:
+Streaming services have brought about a significant transformation in the music industry, offering users convenient and cost-effective access to a vast catalog of songs. These services play a pivotal role in shaping artist visibility, revenue streams, and listening preferences. Moreover, the publicly available APIs provided by streaming platforms like Spotify, Apple Music, and Amazon Music offer unparalleled insights into various dimensions, including geography, audio features, and time, shedding light on trends among both artists and listeners.<br>
+<br>
+Throughout our project, we embarked with a set of guiding questions:<br>
+* What are the most popular audio features, and how have they evolved over time?<br>
+* How has the popularity of artists changed over time?<br>
+* Is there a correlation between the evolution of audio features among top artists and the overall trends in popular music?<br>
+<br>
+While not all of these questions fell strictly within the scope of our analysis, they served as initial guiding points. Ultimately, our deep passion for music and curiosity propelled us to undertake this project, as we sought personal enjoyment and a deeper understanding of the subject matter.
 
-1. Clone this repository to your computer.
-2. Open a terminal and navigate to the root of this repository.
-3. Ensure you have **R version 4.2.2** or higher
-4. Open the R console in this same directory and install `renv` package:
-```r
-install.packages("renv")
-```
-5. Run `renv::restore()` to install all the packages needed for this project
 
-### The Quarto setup
 
-If using quarto is not your thing, you can just ignore this section. If you want to use quarto, follow the steps below:
+## Aims & Objectives:
+### Main objectives:
 
-1. Install [Quarto](https://quarto.org/docs/getting-started/installation.html) on your computer.
-2. Run the following command to start the website locally:
-    ```bash
-    quarto preview . --render all --no-browser
-    ```
-    This will read the instructions from `_quarto.yml` and render the website locally.
-5. Open your browser and navigate to `http://localhost:<port>/`. That's it!
 
-</details>
+## Data and Data Challenges:
+We used two sources of data for our research:<br>
+* Billboard (Billboard API) via Python Package (pypi.python.org/pypi/billboard.py) 
+* Spotify (Spotify API) (https://developer.spotify.com/documentation/web-api)<br>
 
-<details> <summary>⚒️ (Advanced) Jon's full setup</summary>
+### Data Challenges:
+Throughout the data collection section of our investigation our team encountered several challenges.<br>
 
-## ⚒️ (Advanced) Jon's full setup
+#### Step 1 Challenges
+In Step 1, our objective was to investigate the top 10 artists of the past 5 years using Billboard’s weekly ‘Billboard Hot 100’ chart. Below is a cropped screenshot of the Billboard chart.<br>
+<img src="./Billboard Chart.png" style="height:65%;width:65%">
 
-I, [@jonjoncardoso](github.com/jonjoncardoso), like to use R on VSCode (WSL Ubuntu) instead of RStudio. It is a weird setup if you come from R, but it's a good setup for when you need to switch between R and Python all the time. Feel free to just ignore this stuff but if you want to replicate my setup, just follow the steps below:
+Challenge|Solution|Outcome
+:---|:---|:---
+A major hurdle we faced was the absence of a direct Billboard API to access the required data. In fact, the Billboard API was officially terminated in May 2013. As a result, we couldn't retrieve the aggregated data or directly aggregate it through Billboard's resources.<br>Our direct search for the most popular artists proved unsuccessful since the Billboard Hot 100 primarily features popular songs rather than individual artists.|Fortunately, we discovered a Python package called Billboard.py that proved instrumental in creating code to aggregate the data. This enabled us to identify the artists with the most entries on the weekly charts over the past five years.<br>However, we identified a strong correlation between the number of songs an artist had entered and their popularity. For example, Drake had 800 songs entered over the five-year period.|This challenge provided valuable insight into the importance of seeking out existing solutions to overcome problems in data analysis.<br>This challenge deepened our understanding of the nature of imperfect data and the necessity to make justifiable statistical leaps when drawing conclusions, a common task for data scientists.
 
-1. Install [VSCode](https://code.visualstudio.com/Download)
-2. Install [WSL on Windows](https://learn.microsoft.com/en-us/windows/wsl/install)
-3. Install [WSL extension on VSCode](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
-4. Open VSCode and open a new WSL window (Type `Ctrl+Shift+P` and type `WSL: New Window`)
-6. Open the Ubuntu terminal on VSCode and install [R](https://cloud.r-project.org/)
 
-**When doing R**
 
-7. Install the [R extension on VSCode](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r)
-8. Install [Quarto](https://quarto.org/docs/getting-started/installation.html)
-9. Install the [Quarto extension on VSCode](https://marketplace.visualstudio.com/items?itemName=quarto-dev.quarto-vscode)
-10. When running R notebooks (either `.Rmd` or `.qmd`) manually, you will see that some plots do not render with adequate size. To fix this, follow [these instructions](https://stackoverflow.com/a/70817205/843365).
 
-**When doing Python**
+#### Step 2 Challenges
+In Step 2, our objective was to investigate the audio features of the top 50 songs per month over the past five years.
 
-11. Install the [Python extension on VSCode](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-12. Install the [Jupyter extension on VSCode](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+Challenge|Solution|Outcome
+:---|:---|:---
+Spotify's weekly charts did not provide easy access to their historical data, making it challenging for us to collect the required information.|After extensive research, we discovered that Spotify's historical data was stored in CSV files (insert photo). Therefore, we manually downloaded the CSV files and imported them into pandas dataframes for analysis.|This process taught us a valuable lesson about the accessibility of data. It served as a reminder that data is often not readily available and may require substantial effort to obtain. Additionally, we recognized the importance of data transformation when working with diverse data sources, as traditional organizations may employ storage formats that are less convenient but contain vital data, that data scientists have to work with while conducting analysis or transitioning an organization to a more modern data storage method. 
 
-I also use the following VSCode Extensions:
+Below is a screenshot of our Spotify CSV File from Microsoft Excel.<br>
+<img src="./CSV File.png" style="height:65%;width:65%">
 
-- [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
-- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-- [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
-- [Grammarly](https://marketplace.visualstudio.com/items?itemName=znck.grammarly)
+#### Step 3 - We needed to get historical trends to find out who the Top 10 artists have been throughout the past 5 years (2018 - 2023) 
+1. We used Billboard python package, as it was more accessible than the API 
+2. Use used the datetime package to get the top 100 Billboard chart for every week since May 2018
+3. We looped over each chart and calculated how many features each artists has had in total throughout 260 weeks; we created the ranking and we were amazed to see that a Country singer has been the 2nd top charted artist, after Drake, of course. 
+<img width="484" alt="Screenshot 2023-05-29 at 12 32 09" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/12870658/54f6ef69-a7f6-4d7f-97d0-b0bee2ea9404">
 
-</details>
+# 
+#### Step 5 - We compare the Top Songs of the 10 most featured artists on the Billboard charts, in the past 5 years
+Challenges 
 
+
+### Methodology: 
+1. Fetch the audio features for the top songs of the top artists
+2. Calculate the average audio features for each top artist
+3. Convert the artist data into a DataFrame
+<img width="582" alt="Screenshot 2023-05-29 at 12 18 06" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/12870658/379b34d3-f5bb-4f32-879c-2954c72cf4f0">
+
+### Data Cleaning - Cleaned data frame, sorted artists by rank in charts, renamed columns and made them easier to work with in future visualisations 
+<img width="1151" alt="Screenshot 2023-05-29 at 12 18 29" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/12870658/2603282e-453d-4057-bae9-d6a1086adc2d">
+
+### Data Visualisation 
+<img width="1151" alt="Screenshot 2023-05-29 at 12 19 05" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/12870658/536fea81-4cf9-4b85-aa52-2771df16bc56">
+
+
+
+## Data Visualisation:
+
+
+## Challenges:
+
+
+## Conclusion:
