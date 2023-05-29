@@ -51,6 +51,13 @@ Spotify's weekly charts did not provide easy access to their historical data, ma
 Below is a screenshot of our Spotify CSV File from Microsoft Excel.<br>
 <img src="./CSV File.png" style="height:65%;width:65%">
 
+#### Step 3 - We needed to get historical trends to find out who the Top 10 artists have been throughout the past 5 years (2018 - 2023) 
+1. We used Billboard python package, as it was more accessible than the API 
+2. Use used the datetime package to get the top 100 Billboard chart for every week since May 2018
+3. We looped over each chart and calculated how many features each artists has had in total throughout 260 weeks; we created the ranking and we were amazed to see that a Country singer has been the 2nd top charted artist, after Drake, of course. 
+<img width="484" alt="Screenshot 2023-05-29 at 12 32 09" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/12870658/54f6ef69-a7f6-4d7f-97d0-b0bee2ea9404">
+
+# 
 #### Step 5 - We compare the Top Songs of the 10 most featured artists on the Billboard charts, in the past 5 years
 Challenges 
 
