@@ -51,9 +51,22 @@ Spotify's weekly charts did not provide easy access to their historical data, ma
 Below is a screenshot of our Spotify CSV File from Microsoft Excel.<br>
 <img src="./CSV File.png" style="height:65%;width:65%">
 
-## Methodology:
-### Data Cleaning
-### Visualisation
+#### Step 5 - We compare the Top Songs of the 10 most featured artists on the Billboard charts, in the past 5 years
+Challenges 
+
+
+### Methodology: 
+1. Fetch the audio features for the top songs of the top artists
+2. Calculate the average audio features for each top artist
+3. Convert the artist data into a DataFrame
+<img width="582" alt="Screenshot 2023-05-29 at 12 18 06" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/12870658/379b34d3-f5bb-4f32-879c-2954c72cf4f0">
+
+### Data Cleaning - Cleaned data frame, sorted artists by rank in charts, renamed columns and made them easier to work with in future visualisations 
+<img width="1151" alt="Screenshot 2023-05-29 at 12 18 29" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/12870658/2603282e-453d-4057-bae9-d6a1086adc2d">
+
+### Data Visualisation 
+<img width="1151" alt="Screenshot 2023-05-29 at 12 19 05" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/12870658/536fea81-4cf9-4b85-aa52-2771df16bc56">
+
 
 
 ## Data Visualisation:
@@ -62,4 +75,4 @@ Below is a screenshot of our Spotify CSV File from Microsoft Excel.<br>
 ## Challenges:
 
 
-## Conclusion: 
+## Conclusion:
