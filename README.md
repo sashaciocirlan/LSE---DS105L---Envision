@@ -30,18 +30,19 @@ We used two sources of data for our research:<br>
 ### Data Challenges:
 Throughout the data collection section of our investigation our team encountered several challenges.<br>
 
-#### Step 1 Challenges
+#### Step 1
 In Step 1, our objective was to investigate the top 10 artists of the past 5 years using Billboard’s weekly ‘Billboard Hot 100’ chart. Below is a cropped screenshot of the Billboard chart.<br>
-<img src="./Billboard Chart.png" style="height:65%;width:65%">
+<img src="./Billboard Chart.png" style="height:45%;width:65%">
 
 Challenge|Solution|Outcome
 :---|:---|:---
 A major hurdle we faced was the absence of a direct Billboard API to access the required data. In fact, the Billboard API was officially terminated in May 2013. As a result, we couldn't retrieve the aggregated data or directly aggregate it through Billboard's resources.<br>Our direct search for the most popular artists proved unsuccessful since the Billboard Hot 100 primarily features popular songs rather than individual artists.|Fortunately, we discovered a Python package called Billboard.py that proved instrumental in creating code to aggregate the data. This enabled us to identify the artists with the most entries on the weekly charts over the past five years.<br>However, we identified a strong correlation between the number of songs an artist had entered and their popularity. For example, Drake had 800 songs entered over the five-year period.|This challenge provided valuable insight into the importance of seeking out existing solutions to overcome problems in data analysis.<br>This challenge deepened our understanding of the nature of imperfect data and the necessity to make justifiable statistical leaps when drawing conclusions, a common task for data scientists.
 
+Refer to below for our obtained historic trend from Billboard.py<br>
+<img width="484" alt="Screenshot 2023-05-29 at 12 32 09" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/12870658/54f6ef69-a7f6-4d7f-97d0-b0bee2ea9404">
 
 
-
-#### Step 2 Challenges
+#### Step 2
 In Step 2, our objective was to investigate the audio features of the top 50 songs per month over the past five years.
 
 Challenge|Solution|Outcome
@@ -51,13 +52,8 @@ Spotify's weekly charts did not provide easy access to their historical data, ma
 Below is a screenshot of our Spotify CSV File from Microsoft Excel.<br>
 <img src="./CSV File.png" style="height:65%;width:65%">
 
-#### Step 3 - We needed to get historical trends to find out who the Top 10 artists have been throughout the past 5 years (2018 - 2023) 
-1. We used Billboard python package, as it was more accessible than the API 
-2. Use used the datetime package to get the top 100 Billboard chart for every week since May 2018
-3. We looped over each chart and calculated how many features each artists has had in total throughout 260 weeks; we created the ranking and we were amazed to see that a Country singer has been the 2nd top charted artist, after Drake, of course. 
-<img width="484" alt="Screenshot 2023-05-29 at 12 32 09" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/12870658/54f6ef69-a7f6-4d7f-97d0-b0bee2ea9404">
 
-# 
+
 #### Step 5 - We compare the Top Songs of the 10 most featured artists on the Billboard charts, in the past 5 years
 Challenges 
 
