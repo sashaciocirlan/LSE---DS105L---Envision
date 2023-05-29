@@ -52,6 +52,8 @@ Below is a screenshot of our Spotify CSV File from Microsoft Excel.<br>
 <img src="./CSV File.png" style="height:65%;width:65%">
 
 ## Methodology:
+### Data Cleaning
+### Visualisation
 
 
 ## Data Visualisation:
