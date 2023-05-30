@@ -176,8 +176,14 @@ Below is the dataframe displaying these values:
 ## 📑 Data Visualisation
 
 ![dance](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/3ac35441-36e8-40d6-af4e-a08be05ed33d)
+Scatterplot which depicts the average danceability of the top 10 artists’ songs. Their scores are quite varied suggesting there is not a common trend in danceability for successful artists. However, the majority are above 0.5 which suggests danceable music is more popular.
+
 ![energy](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/d1d7d8d2-1007-455b-b4b3-b45bfc53b422)
+Scatterplot which depicts the range of top artists average energy in their songs.  There’s more of a correlation than danceability, which suggests an energy score at around 0.6 correlate to a song being more popular. Also shows popular artists tend to have more energetic music as everyone apart from Billie Eilish has an average greater than 0.5.
+
 ![speechiness](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/409686fd-81bf-448f-a2ca-ad0b776c997a)
+Very varied averages ,however most are below 0.3 suggesting less speechy songs are more popular.
+
 ![Parallelplot](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/64f854ea-8fb2-4d94-b92a-fe5fc1d1a308)
 
 <br>
