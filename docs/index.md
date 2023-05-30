@@ -45,17 +45,6 @@ Challenge|Solution|Outcome
 :---|:---|:---
 Spotify's weekly charts did not provide easy access to their historical data, making it challenging for us to collect the required information.|After extensive research, we discovered that Spotify's historical data was stored in CSV files (insert photo). Therefore, we manually downloaded the CSV files and imported them into pandas dataframes for analysis.|This process taught us a valuable lesson about the accessibility of data. It served as a reminder that data is often not readily available and may require substantial effort to obtain. Additionally, we recognized the importance of data transformation when working with diverse data sources, as traditional organizations may employ storage formats that are less convenient but contain vital data, that data scientists have to work with while conducting analysis or transitioning an organization to a more modern data storage method. 
 
-<br>
-
-(Rough)Part 1: finding trends in the most popular music of the past 5 years
-Data set used: ‘Weekly Top Songs Global’ by Spotify
-Chart of the 200 most-streamed songs worldwide of the week released every Thursday
-Historical charts provided in the form of CSV files
-Data will be collected from the chart of 2018-05-24
-We will look at the charts every 4 weeks for the next 5 years
-Total of 66 charts
-
-
 
 Below is a screenshot of our Spotify CSV File from Microsoft Excel.<br>
 <img width="500" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/015125f8-9b2e-4e84-a2fc-f9b05bdd5972">
