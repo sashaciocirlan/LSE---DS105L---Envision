@@ -38,7 +38,7 @@ date-meta: 20 March 2023
 ## 📝 Executive Summary
 This project utilised data from streaming platforms' APIs, including **Spotify** and **Billboard**, to examine the influence of streaming services on the music industry. The project aimed to understand the evolution of audio features, changes in artist popularity, and potential correlations between audio feature trends and popular music trends.<br>
 Through **five key steps**, the project explored these aspects.
-* Analysing the **top 10 artists** over the past **5 years** using the Billboard's Hot 100 chart. 
+* Analysing the **top 10 artists** over the past **5 years** using the **Billboard's Hot 100** chart. 
 * Collecting data on the **audio features** of the **top 50 songs per month** during this period. 
 * Examining the **audio features** of the top ten **artists' songs** over the past five years.
 * Establishing **industry benchmarks** by calculating average values and standard deviations or ranges of audio feature categories. This identifies the audio features that experienced the most and least change over time. 
