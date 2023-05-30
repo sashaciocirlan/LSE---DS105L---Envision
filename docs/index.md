@@ -364,6 +364,6 @@ Toni utilised her growing expertise in coding to, in tandem with Sasha, collect,
 Sasha played an integral role in bridging the web-pages overall strategy to its technical contents. On the technical side, Sasha utilises Pandas to obtain, filter, merge and pivot the raw data to prepare it for analysis. Sasha used this technical knowledge to inform the project's scope and set realistic technical goals within the context of our group's overall motivations. Sasha also was responsible for cleaning the repository and the website. 
 
 ### Jacen
-Jacen anchored the web-pages analysis by establishing industry benchmarks. In particular, Jacen utilised the Spotify API to investigate the audio features of the top 50 songs, per month, for the last five years. This acted as a reference point for the latter half of our investigation, in which we compared this 'benchmark' to the top ten most popular artists. Moreover, Jacen provided an excellent visual representation of this relationship in his usage of Plotnine to create a radar graph.
+Jacen anchored the web-pages analysis by establishing industry benchmarks. In particular, Jacen utilised the Spotify API to investigate the audio features of the top 50 songs, per month, for the last five years. This acted as a reference point for the latter half of our investigation, in which we compared this 'benchmark' to the top ten most popular artists. Moreover, Jacen provided an excellent visual representation of this relationship in his usage of ggplot to create a radar graph.
 
 
