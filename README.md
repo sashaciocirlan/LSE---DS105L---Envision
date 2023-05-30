@@ -6,12 +6,11 @@ ___
 ## 🏠 Team members
 
 <p align="middle">
-  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/d2018c54-0246-45b8-96dd-dae77aba42cd" width="100" />
-  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/6d371631-3dc2-4b9a-a511-742b96f66719" width="100" /> 
-  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/86581025-4645-4ac9-94c7-9f65cb14a105" width="100" />
-  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/7e459764-9f5c-4b05-942f-cb9dff9c084d" width="100" /> 
-  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/f575137f-2aa2-4ba6-8f05-3114fd3118da" width="100" />
-  ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/f575137f-2aa2-4ba6-8f05-3114fd3118da)
+  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/d2018c54-0246-45b8-96dd-dae77aba42cd" width="150" />
+  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/6d371631-3dc2-4b9a-a511-742b96f66719" width="150" /> 
+  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/86581025-4645-4ac9-94c7-9f65cb14a105" width="150" />
+  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/7e459764-9f5c-4b05-942f-cb9dff9c084d" width="150" /> 
+  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/f575137f-2aa2-4ba6-8f05-3114fd3118da" width="150" />
 </p>
 
 
