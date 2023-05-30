@@ -22,7 +22,7 @@ We used two sources of data for our research:<br>
 * Billboard (Billboard API) via Python Package (pypi.python.org/pypi/billboard.py) 
 * Spotify (Spotify API) (https://developer.spotify.com/documentation/web-api)<br>
 
-## Exploratory Data Analysis:
+## 📊 Exploratory Data Analysis:
 ### Billboard API
 In Step 1, our objective was to investigate the top 10 artists of the past 5 years using Billboard’s weekly ‘Billboard Hot 100’ chart. Below is a cropped screenshot of the Billboard chart.<br>
 <img width="400" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/4d64faaf-1250-4ca2-8e66-3c11a1e69d76">
@@ -57,7 +57,7 @@ Step 3:
 In Step 3, our objective was to analyze the audio features of the top ten artists' songs from the past five years.
 
 
-## Data Collection Challenges:
+## 💪🏼 Data Collection Challenges:
 Throughout the data collection section of our investigation our team encountered several challenges. However, through diligent problem-solving and collaboration, our team successfully devised solutions for each of these challenges.<br>
 
 Challenge|Solution|Outcome
@@ -68,7 +68,7 @@ Spotify's weekly charts did not provide easy access to their historical data, ma
 We encountered a collaboration issue as there was a misalignment in our variable names and general code style. This lack of coherence in our functions between group members initially prevented us from collecting the data. For instance, one collaborator used the variable name 'Artist' while another used 'Top Ten Artist'.|To resolve this issue, we carefully reviewed and adjusted the variable names to ensure consistency. This enabled us to successfully execute the code.|Although seemingly minor, we argue that this is a common yet deceptively difficult challenge faced by data scientists when collaborating. As a result, we adopted a practice of establishing a baseline 'style' at the beginning of each collaborative coding session, which greatly streamlined the process.
 
 
-## Data Analysis
+## 📈 Data Analysis
 
 #### Step 4.
 #### Step 5 - We compare the Top Songs of the 10 most featured artists on the Billboard charts, in the past 5 years
