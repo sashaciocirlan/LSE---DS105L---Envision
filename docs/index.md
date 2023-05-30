@@ -64,9 +64,7 @@ We used two sources of data for our research:<br>
 
 ## 📊 Exploratory Data Analysis
 ### Billboard API
-We looked at Billboard’s weekly ‘Billboard Hot 100’ chart to investigate the top 10 artists of the past 5 years.<br>
-Below is a cropped screenshot of the Billboard chart.<br>
-<img width="400" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/4d64faaf-1250-4ca2-8e66-3c11a1e69d76">
+We looked at Billboard’s weekly “Billboard Hot 100” chart, a weekly music chart that ranks the 100 most popular songs in the United States on various factors, to investigate the top 10 artists of the past 5 years cumulative. Due to reasons that will be specified below, we obtained data from a Python Package called Billboard.py. Data were collected from 2018/05/24, and we observed weekly for 5 years. 
 <br>
 Refer to below for our obtained historic trend from Billboard.py<br>
 <img width="484" alt="Screenshot 2023-05-29 at 12 32 09" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/12870658/54f6ef69-a7f6-4d7f-97d0-b0bee2ea9404">
