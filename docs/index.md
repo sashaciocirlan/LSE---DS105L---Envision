@@ -144,7 +144,7 @@ Other artists that appear to have visually significant deviations from the most 
 To visualise how the audio features of the most popular songs have changed over time, or lack thereof, scatter plots with trend lines were created using the plotnine package. Each scatter plot shows all the values of one audio feature for all of the songs that have been analysed (i.e. top 50 songs every 4 weeks for 5 years). <br>
 
 1. Danceability
-<img width="700" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
+<img width="500" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
 
    - The danceability scatter plot shows that most of the top songs have a value of more than 0.5, which indicates that popular songs tend to be danceable.
    - However, the trendline in red is slightly decreasing. Even though it might indicate that songs are becoming less danceable, the small gradient of the slope does not necessarily show a significant trend.
