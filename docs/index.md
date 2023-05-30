@@ -67,8 +67,8 @@ We encountered a collaboration issue as there was a misalignment in our variable
 
 ## 📈 Data Analysis
 
-#### Step 4.
-#### Step 5 - We compare the Top Songs of the 10 most featured artists on the Billboard charts, in the past 5 years
+### Determining "Industry Benchmarks"
+### Comparison
 
 
 ### Methodology: 
