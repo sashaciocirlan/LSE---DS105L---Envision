@@ -110,16 +110,18 @@ We encountered a collaboration issue as there was a misalignment in our variable
 ## 📈 Data Analysis
 
 ### Determining "Industry Benchmarks"
-We have already found the values of each audio feature for each individual song over the past 5 years, but we now want to combine all this data into an "industry benchmark" which could give us an overall picture of what the most popular songs sound like. To do this, we calculated a weighted average for each audio feature. This is done by multiplying each song's value by the number of streams it received that week, adding up all the 50 songs' values and then dividing it by the total number of streams received by these songs that week. Thus, songs that get streamed more will make a bigger contribution to the weighted average than other songs, and the resulting value is more representative of streamers' listening habits.  Consequently, the resulting dataframe will contain both the initial and final sections.
+We have already collected the values of each audio feature for individual songs over the past 5 years. Now, our goal is to consolidate this data into an "industry benchmark" that provides an overall perspective of the sound characteristics found in the most popular songs. To achieve this, we have calculated weighted averages for each audio feature.
+
+The calculation involves multiplying each song's value by the number of streams it received in a given week. We then sum up the values for the top 50 songs and divide it by the total number of streams received by those songs in that week. This approach ensures that songs with higher streaming numbers have a greater impact on the weighted average, making the resulting value more representative of listeners' streaming habits.
+
+As a result, the final dataframe will contain both the initial data sections and the consolidated industry benchmark.
 ### Comparison
 (Rough) First we get the overall average values for the most popular songs (Just get the mean of the values in the above dataframe). We use Sasha’s dataframe with the values for the top 10 artists: for each audio feature, we substract the overall average and the resulting value would be the difference between top artists and the industry benchmark.
 
 
 ## 📑 Data Visualisation
 ### Plotting into Dataframe
-The primary goal of the initial visualization is to examine whether there are substantial differences between the audio features of the most popular artists and the most popular songs over the past five years. <br>
-In the preceding section, we had already computed the variance in average audio feature values between the top songs and top artists. To present this data visually, we created a radar chart using the plotly Python package. However, since the radar chart necessitated uniform measurement scales for all categories (i.e., audio features), we excluded loudness, tempo, and duration from the data due to their disparate measurement units (loudness in decibels, tempo in beats per minute, and duration in milliseconds). All other features were scaled between 0 and 1 for consistency. <br>
-The resulting radar chart is as follows: <br>
+The primary goal of the initial visualization is to examine whether there are substantial differences between the audio features of the most popular artists and the most popular songs over the past five years. <br> In the preceding section, we had already computed the variance in average audio feature values between the top songs and top artists. To present this data visually, we created a radar chart using the plotly Python package. However, since the radar chart necessitated uniform measurement scales for all categories (i.e., audio features), we excluded loudness, tempo, and duration from the data due to their disparate measurement units (loudness in decibels, tempo in beats per minute, and duration in milliseconds). All other features were scaled between 0 and 1 for consistency. <br> The resulting radar chart is as follows: <br>
 <img width="800" alt="Radar_Chart.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/2d5ee9d4-9bc4-4ecd-bf66-ac5da49460cb">
 
 On the radar chart, a value of 0 means that the average value of the audio feature for an artist is the same as that of the most popular songs. For example, the danceability of this artist’s songs is at the same level as the most popular songs of the past 5 years. This means that as an artist’s value moves further away from 0, their songs increasingly differ from the most popular songs of the past 5 years.<br>
