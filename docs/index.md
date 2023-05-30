@@ -93,8 +93,8 @@ Add the cleaned and visualised image here for Spotify API
 
 #### Audio Features
 We followed the definition of audio features provided by Spotify: (https://developer.spotify.com/documentation/web-api/reference/get-several-audio-features)<br>
-* Danceability - how suitable a track is for dancing (0 is least danceable, 1 is most danceable)
-* Energy - perceptual measure of intensity and activity (0 is least energetic, 1 is most energetic)
+* Danceability: How suitable a track is for dancing (0 is least danceable, 1 is most danceable)
+* Energy: Perceptual measure of intensity and activity (0 is least energetic, 1 is most energetic)
 * Instrumentalness - how much vocals there are in a track (0 is least instrumental (ie. most vocal), 1 is most instrumental (ie. no vocals)
 * Liveness - likelihood of audience present (between 0 and 1)
 * Loudness - loudness of a track in decibels (dB) (higher values = louder)
