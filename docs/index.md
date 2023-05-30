@@ -79,10 +79,15 @@ The Spotify API ‘Get several tracks’ audio features’ request allows us to 
 So we will do this for the top 50 songs every 4 weeks for the past 5 years
 Below is an example dataframe showing the audio features of the songs from 2018-05-24
 
+#### Step 3
+In Step 3, our objective was to analyze the audio features of the top ten artists' songs from the past five years.
+
+Challenge|Solution|Outcome
+:---|:---|:---
+We encountered a collaboration issue as there was a misalignment in our variable names and general code style. This lack of coherence in our functions between group members initially prevented us from collecting the data. For instance, one collaborator used the variable name 'Artist' while another used 'Top Ten Artist'.|To resolve this issue, we carefully reviewed and adjusted the variable names to ensure consistency. This enabled us to successfully execute the code.|Although seemingly minor, we argue that this is a common yet deceptively difficult challenge faced by data scientists when collaborating. As a result, we adopted a practice of establishing a baseline 'style' at the beginning of each collaborative coding session, which greatly streamlined the process.
 
 
 #### Step 5 - We compare the Top Songs of the 10 most featured artists on the Billboard charts, in the past 5 years
-Challenges 
 
 
 ### Methodology: 
