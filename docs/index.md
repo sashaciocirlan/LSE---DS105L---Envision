@@ -128,7 +128,8 @@ We have already found the values of each audio feature for each individual song 
 
 
 
-## 📑 Data Visualisation:
+## 📑 Data Visualisation
+### Plotting into Dataframe
 The objective of the first visualisation is to see if the most popular artists differ greatly from the most popular songs (in terms of their audio features) over the past 5 years.<br>
 In the previous section, we have already calculated the difference between the average audio feature values of the top songs and top artists. In order to visualise this data, a radar chart was created using the plotly package. Because the radar chart required all the different categories (ie. audio features) to be measured on the same scale, the loudness, tempo and duration features were dropped from the data as they did not follow the same measurement scale (loudness was measured in decibels, tempo in beats per minute and duration in milliseconds). All the other features were measured on a scale between 0 and 1.<br>
 The resulting radar chart is as follows:<br>
