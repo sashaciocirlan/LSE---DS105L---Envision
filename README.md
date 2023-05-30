@@ -5,7 +5,7 @@ ___
 
 ## 🏠 Team members
 
-<p float="left">
+<p align="middle">
   <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/d2018c54-0246-45b8-96dd-dae77aba42cd" width="100" />
   <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/6d371631-3dc2-4b9a-a511-742b96f66719" width="100" /> 
   <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/86581025-4645-4ac9-94c7-9f65cb14a105" width="100" />
