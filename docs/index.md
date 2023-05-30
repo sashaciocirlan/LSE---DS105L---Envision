@@ -6,6 +6,16 @@ date-meta: 20 March 2023
 
 # _Leader or Follower_: Exploring the Relationship Between Popular Artists and Music Trends
 
+## 📝 Executive Summary
+This project utilised data from streaming platforms' APIs, including Spotify and Billboard, to examine the influence of streaming services on the music industry. The project aimed to understand the evolution of audio features, changes in artist popularity, and potential correlations between audio feature trends and popular music trends.<br>
+Through five key steps, the project explored these aspects.
+* Analysing the top 10 artists over the past 5 years using the Billboard's Hot 100 chart. 
+* Collecting data on the audio features of the top 50 songs per month during this period. 
+* Examining the audio features of the top ten artists' songs over the past five years.
+* Establishing industry benchmarks by calculating average values and standard deviations or ranges of audio feature categories. This identifies the audio features that experienced the most and least change over time. 
+* Comparing the analysis from Step 4 to the audio features of the top ten artists' songs, using visualizations like scatter plots and radar graphs to represent the findings.<br>
+The findings hold significance for artists, industry professionals, and streaming platforms. Understanding evolving audio feature preferences and artist popularity informs decision-making for song production, marketing, and playlist curation. Exploring correlations between audio feature trends and popular music trends contributes to predicting future music preferences and shaping the industry's direction.<br>
+In conclusion, this project harnessed data from streaming platforms to investigate the impact of streaming services on the music industry. By analyzing audio features and artist popularity, valuable insights were gained into the evolution of music preferences and potential connections with overall trends. These findings offer practical implications for decision-making in the music industry and contribute to its growth and success.
 
 ## 🔋 Motivation
 Streaming services have brought about a significant transformation in the music industry, offering users convenient and cost-effective access to a vast catalog of songs. These services play a pivotal role in shaping artist visibility, revenue streams, and listening preferences. Moreover, the publicly available APIs provided by streaming platforms like Spotify, Apple Music, and Amazon Music offer unparalleled insights into various dimensions, including geography, audio features, and time, shedding light on trends among both artists and listeners.<br>
