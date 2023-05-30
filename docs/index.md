@@ -64,7 +64,8 @@ We used two sources of data for our research:<br>
 
 ## 📊 Exploratory Data Analysis
 ### Billboard Python Package
-We conducted an analysis of Billboard's "Billboard Hot 100" chart, which is a weekly music chart that ranks the 100 most popular songs in the United States based on multiple factors. Our objective was to investigate the top 10 artists over the past cumulative 5 years. To gather the necessary data, we utilised a Python Package called Billboard.py. The data collection process spanned from May 24, 2018, and continued on a weekly basis for a period of 5 years.
+🔝 We conducted an analysis of Billboard's "Billboard Hot 100" chart, which is a weekly music chart that ranks the 100 most popular songs in the United States based on multiple factors. Our objective was to investigate the Top 10 artists over the past cumulative 5 years. 
+▶️ To gather the necessary data, we utilised a Python Package called Billboard.py. The data collection process spanned from May 24, 2018, and continued on a weekly basis for a period of 5 years. We used songs instead of entire albums as songs were more accessible and heterogeneous in terms of coverage (happy, sad, danceable, energetic, etc.)
 <br>
 Please refer below to see the historical trend we obtained using the Billboard.py package. <br>
 Fig 1
