@@ -167,7 +167,7 @@ Consequently, the final dataframe encompasses both the initial sections of data 
 ### Comparison
 After calculating weighted averages for each chart, we aim to obtain an overall understanding of the entire 5-year period by calculating the mean of all 66 values for each audio feature. This aggregated data is the aforementioned **Industry Benchmark** or the overall weighted average.
 
-Next, utilizing the previously computed average values for the audio features of each artist, we proceed to subtract each artist's values from the overall weighted average of the most popular songs. This process allows us to gauge the divergence of each artist from the general music industry. A value of 0 indicates that the artist aligns with the industry benchmark established by the most popular songs. Conversely, the further a value deviates from 0, the more distinct the artist is from the most popular songs.
+Next, utilising the previously computed average values for the audio features of each artist, we proceed to subtract each artist's values from the overall weighted average of the most popular songs. This process allows us to gauge the divergence of each artist from the general music industry. A value of 0 indicates that the artist aligns with the industry benchmark established by the most popular songs. Conversely, the further a value deviates from 0, the more distinct the artist is from the most popular songs.
 
 Below is the dataframe displaying these values: 
 <p align="middle">
