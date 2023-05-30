@@ -129,8 +129,9 @@ We have already collected the values of each audio feature for individual songs 
 The calculation involves multiplying each song's value by the number of streams it received in a given week. We then sum up the values for the top 50 songs and divide it by the total number of streams received by those songs in that week. This approach ensures that songs with higher streaming numbers have a greater impact on the weighted average, making the resulting value more representative of listeners' streaming habits.
 
 As a result, the final dataframe will contain both the initial data sections and the consolidated industry benchmark.
+
 ### Comparison
-(Rough) First we get the overall average values for the most popular songs (Just get the mean of the values in the above dataframe). We use Sasha’s dataframe with the values for the top 10 artists: for each audio feature, we substract the overall average and the resulting value would be the difference between top artists and the industry benchmark.
+Now that we have calculated weighted averages for each chart, to get an overall picture of the entire 5 year period, we will take the mean of all 66 values for each audio feature. This data will be referred as the overall weighted average or the “industry benchmark”. Then, using the previously calculated average values for the audio features of each artist (this is sasha’s dataframe), we then subtract each artist’s values with the overall weighted average for the most popular songs. This is so that we can measure how different each artist is to the general music industry. a value of 0 means that the artist is on par with the industry benchmark set by the most popular songs, and the further a value is from 0, the more different the artist is from the most popular songs
 
 
 ## 📑 Data Visualisation
