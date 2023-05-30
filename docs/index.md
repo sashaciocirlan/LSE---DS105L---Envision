@@ -12,7 +12,7 @@ date-meta: 20 March 2023
 </p>
 
 
-## 🏠 TEAM MEMBERS
+## 🏠 Team Members
 
 <br>
 <p align="middle">
