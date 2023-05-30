@@ -118,9 +118,9 @@ We have already found the values of each audio feature for each individual song 
 
 ## 📑 Data Visualisation
 ### Plotting into Dataframe
-The objective of the first visualisation is to see if the most popular artists differ greatly from the most popular songs (in terms of their audio features) over the past 5 years.<br>
-In the previous section, we have already calculated the difference between the average audio feature values of the top songs and top artists. In order to visualise this data, a radar chart was created using the plotly package. Because the radar chart required all the different categories (ie. audio features) to be measured on the same scale, the loudness, tempo and duration features were dropped from the data as they did not follow the same measurement scale (loudness was measured in decibels, tempo in beats per minute and duration in milliseconds). All the other features were measured on a scale between 0 and 1.<br>
-The resulting radar chart is as follows:<br>
+The primary goal of the initial visualization is to examine whether there are substantial differences between the audio features of the most popular artists and the most popular songs over the past five years. <br>
+In the preceding section, we had already computed the variance in average audio feature values between the top songs and top artists. To present this data visually, we created a radar chart using the plotly Python package. However, since the radar chart necessitated uniform measurement scales for all categories (i.e., audio features), we excluded loudness, tempo, and duration from the data due to their disparate measurement units (loudness in decibels, tempo in beats per minute, and duration in milliseconds). All other features were scaled between 0 and 1 for consistency. <br>
+The resulting radar chart is as follows: <br>
 <img width="800" alt="Radar_Chart.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/2d5ee9d4-9bc4-4ecd-bf66-ac5da49460cb">
 
 On the radar chart, a value of 0 means that the average value of the audio feature for an artist is the same as that of the most popular songs. For example, the danceability of this artist’s songs is at the same level as the most popular songs of the past 5 years. This means that as an artist’s value moves further away from 0, their songs increasingly differ from the most popular songs of the past 5 years.<br>
