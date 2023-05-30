@@ -4,7 +4,7 @@ date: 20 March 2023
 date-meta: 20 March 2023
 ---
 
-# "TUNING INTO YOUR MUSIC": Exploring popular song features and trends
+# _Leader or Follower?_: Exploring the Relationship Between Popular Artists and Music Trends
 
 **Team members:** 
 
