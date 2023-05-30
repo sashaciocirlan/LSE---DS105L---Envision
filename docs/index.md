@@ -220,5 +220,23 @@ To visualise how the audio features of the most popular songs have changed over 
 
 
 ## Conclusion:
+## Work Distribution
+Our project was collaborative, and therefore required all of our participation and contributions in order to succeed. Although we divided group responsibilities by strengths, and therefore most efficiently, we also challenged ourselves to take on tasks that were outside of our comfort zone and provided opportunity to learn the technical, organisational and design skills required for this project.<br>
+
+### Kim 
+Kim leveraged his creative lens to design the overall aesthetic and visual appearance of the web-page. This included, but was not limited to, transposing text onto the webpage, adjusting formatting and ensuring our colour schemes and overall visual appearance was clear and accessible. Notably, we opted for a colour scheme that was blue, orange and red as this is a colour blind friendly-palette. 
+
+### David 
+David was responsible for overall direction and strategy of the project, including managing workflow, adjusting the scope, setting deadlines and ensuring the webpage told a coherent story that was in-line with our objectives and previous feedback. David also wrote portions of the web-page, including the executive summary, motivations, conclusion and next steps. 
+
+### Toni
+Toni utilised her growing expertise in coding to, in tandem with Sasha, collect, analyse and visualise data from the Billboard.Py package. Specifically, Toni drafted functions to retrieve, parse and clean the data. This ensured Sasha and Jacen could also manipulate and analyse the data. Moreover, Toni used Plotnin to visualise the data across scatterplots and parallel coordinate planes. In particular, Toni was responsible for identifying the audio features of the top ten artists' songs, per year, and comparing these audio features to the wider industry benchmarks. 
+
+### Sasha
+Sasha played an integral role in bridging the web-pages overall strategy to its technical contents. On the technical side, Sasha utilises Pandas to filter, merge and pivot the raw data to prepare it for analysis. Sasha used this technical knowledge to inform the project's scope and set realistic technical goals within the context of our group's overall motivations. Sasha also was responsible for cleaning the repository. 
+
+### Jacen:
+Jacen anchored the web-pages analysis by establishing industry benchmarks. In particular, Jacen utilised the Spotify API to investigate the audio features of the top 50 songs, per month, for the last five years. This acted as a reference point for the latter half of our investigation, in which we compared this 'benchmark' to the top ten most popular artists. Moreover, Jacen provided an excellent visual representation of this relationship in his usage of Plotnine to create a radar graph.
+
 
 
