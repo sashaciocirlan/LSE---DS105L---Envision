@@ -154,14 +154,12 @@ We encountered a collaboration issue as there was a misalignment in our variable
 
 ## 🧐 Data Analysis
 
-### Determining "Industry Benchmarks"
-We have already collected the values of each audio feature for individual songs over the past 5 years. Now, our goal is to consolidate this data into an "industry benchmark" that provides an overall perspective of the sound characteristics found in the most popular songs. To achieve this, we have calculated weighted averages for each audio feature.
+### Determining *Industry Benchmarks*
+We have successfully gathered data on the audio features of individual songs spanning the past 5 years. Our aim now is to consolidate this information into an **Industry Benchmark** that offers a comprehensive view of the sound characteristics prevalent in the most popular songs. To accomplish this, we have computed weighted averages for each audio feature.
 
-The calculation involves multiplying each song's value by the number of streams it received in a given week. We then sum up the values for the top 50 songs and divide it by the total number of streams received by those songs in that week. This approach ensures that songs with higher streaming numbers have a greater impact on the weighted average, making the resulting value more representative of listeners' streaming habits.
+The calculation process entails multiplying the value of each song's audio feature by the number of streams it received within a specific week. Subsequently, we aggregate the feature values for the top 50 songs and divide the sum by the total number of streams accumulated by those songs in that particular week. This methodology ensures that songs with higher streaming figures exert a more significant influence on the weighted average, resulting in a value that better reflects the listening habits of the audience.
 
-As a result, the final dataframe will contain both the initial data sections and the consolidated industry benchmark.
-
-Below shows the heads and tails of the resulting dataframe:
+Consequently, the final dataframe encompasses both the initial sections of data and the consolidated industry benchmark. Below, you will find a preview of the resulting dataframe, displaying its heads and tails.
 <p align="middle">
   <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/925fb4be-424f-4919-8796-406679c29430" width="500" />
 </p>
