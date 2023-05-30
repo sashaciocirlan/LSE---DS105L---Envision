@@ -6,6 +6,12 @@ date-meta: 20 March 2023
 
 # _Leader or Follower_: Exploring the Relationship Between Popular Artists and Music Trends
 
+<p align="middle">
+  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/dfaca0fd-6561-4cc7-be72-8ba38cfade48" width="250" />
+  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/e22f1e04-dc70-483c-8075-3d3684eb59ee" width="250" /> 
+</p>
+
+
 ## 🏠 Team members
 
 <br>
