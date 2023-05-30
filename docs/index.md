@@ -69,9 +69,11 @@ We encountered a collaboration issue as there was a misalignment in our variable
 
 ### Determining "Industry Benchmarks"
 ### Comparison
+First we get the overall average values for the most popular songs (Just get the mean of the values in the above dataframe). We use Sasha’s dataframe with the values for the top 10 artists: for each audio feature, we substract the overall average and the resulting value would be the difference between top artists and the industry benchmark.
 
 
-### Methodology: 
+
+## Methodology: 
 1. Fetch the audio features for the top songs of the top artists
 2. Calculate the average audio features for each top artist
 3. Convert the artist data into a DataFrame
