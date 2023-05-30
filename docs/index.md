@@ -88,6 +88,7 @@ Below is a screenshot of an example of the Spotify CSV Files from Microsoft Exce
 </p>
 <br>
 #### Data Cleaning and Visualisation
+<br>
 **Add the cleaned and visualised image here for Spotify API**
 
 #### Audio Features
