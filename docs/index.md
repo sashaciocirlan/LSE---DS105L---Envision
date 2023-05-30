@@ -106,13 +106,13 @@ We encountered a collaboration issue as there was a misalignment in our variable
 
 
 ## Data Visualisation:
-![avg_audio_features](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/b063594f-9fc3-4111-a2ce-4b930d36fcac)
 ![danceability](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/6dd6e42b-3e5d-4340-8f9a-93ccbdb5087c)
 ![energy](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/a5c72a68-013d-4d35-80c6-c04f2fa9e8ab)
 ![key](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/703565c2-e072-4e9d-8665-6bb8a2b6f114)
 ![loudness](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/e96e682f-7fa4-4fcb-a9c6-cddb864fe43d)
 ![mode](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/279db048-d5e8-4676-9ca0-586833026fc5)
 ![speechiness](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/23df194c-7588-4f6c-a74d-affa3bfa2658)
+![avg_parallel](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/29ac8227-b58b-4057-9772-38553d1cc4bf)
 
 
 ## Challenges:
