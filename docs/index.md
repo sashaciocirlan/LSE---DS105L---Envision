@@ -87,9 +87,9 @@ Below is a screenshot of an example of the Spotify CSV Files from Microsoft Exce
   <img width="500" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/015125f8-9b2e-4e84-a2fc-f9b05bdd5972">
 </p>
 <br>
+
 #### Data Cleaning and Visualisation
-<br>
-**Add the cleaned and visualised image here for Spotify API**
+Add the cleaned and visualised image here for Spotify API
 
 #### Audio Features
 We followed the definition of audio features provided by Spotify: (https://developer.spotify.com/documentation/web-api/reference/get-several-audio-features)<br>
