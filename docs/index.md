@@ -132,7 +132,7 @@ As a result, the final dataframe will contain both the initial data sections and
 
 Below shows the heads and tails of the resulting dataframe:
 <p align="middle">
-  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/925fb4be-424f-4919-8796-406679c29430" width="450" />
+  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/925fb4be-424f-4919-8796-406679c29430" width="500" />
 </p>
 
 ### Comparison
@@ -140,7 +140,7 @@ Now that we have calculated weighted averages for each chart, to get an overall 
 
 The dataframe below shows these values:
 <p align="middle">
-  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/6b20dafd-7089-4b5d-b3d0-e308b9371117" width="450" />
+  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/6b20dafd-7089-4b5d-b3d0-e308b9371117" width="500" />
 </p>
 
 ## 📑 Data Visualisation
