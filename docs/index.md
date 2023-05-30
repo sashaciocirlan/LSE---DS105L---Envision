@@ -194,9 +194,8 @@ Scatterplot which depicts the average danceability of the top 10 artists’ song
 Scatterplot which depicts the range of top artists average energy in their songs.  There’s more of a correlation than danceability, which suggests an energy score at around 0.6 correlate to a song being more popular. Also shows popular artists tend to have more energetic music as everyone apart from Billie Eilish has an average greater than 0.5.
 
 ![speechiness](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/409686fd-81bf-448f-a2ca-ad0b776c997a)
-Very varied averages ,however most are below 0.3 suggesting less speechy songs are more popular.
+The results are very varied on the graph, inidicating there's a big difference in the speechinesss of the top artist's songs. However, all of the results are below 0.3, signifying that listeners do not enjoy wordy songd.
 
-![Parallelplot](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/64f854ea-8fb2-4d94-b92a-fe5fc1d1a308)
 
 <br>
 <br>
