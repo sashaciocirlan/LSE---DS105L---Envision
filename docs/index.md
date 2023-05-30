@@ -7,7 +7,7 @@ date-meta: 20 March 2023
 # _Leader or Follower_: Exploring the Relationship Between Popular Artists and Music Trends
 
 
-## Motivation:
+## Motivation
 Streaming services have brought about a significant transformation in the music industry, offering users convenient and cost-effective access to a vast catalog of songs. These services play a pivotal role in shaping artist visibility, revenue streams, and listening preferences. Moreover, the publicly available APIs provided by streaming platforms like Spotify, Apple Music, and Amazon Music offer unparalleled insights into various dimensions, including geography, audio features, and time, shedding light on trends among both artists and listeners.<br>
 <br>
 Throughout our project, we embarked with a set of guiding questions:<br>
@@ -17,12 +17,12 @@ Throughout our project, we embarked with a set of guiding questions:<br>
 <br>
 While not all of these questions fell strictly within the scope of our analysis, they served as initial guiding points. Ultimately, our collective interest in music propelled us to undertake this project. Specifically, we sought to understand how, if at all, music has evolved over the last five years, and how the most popular artists' own stylistic choices relate to this evolution.
 
-## 👨‍💻 Data Sources:
+## 👨‍💻 Data Sources
 We used two sources of data for our research:<br>
 * Billboard (Billboard API) via Python Package (pypi.python.org/pypi/billboard.py) 
 * Spotify (Spotify API) (https://developer.spotify.com/documentation/web-api)<br>
 
-## 📊 Exploratory Data Analysis:
+## 📊 Exploratory Data Analysis
 ### Billboard API
 In Step 1, our objective was to investigate the top 10 artists of the past 5 years using Billboard’s weekly ‘Billboard Hot 100’ chart. Below is a cropped screenshot of the Billboard chart.<br>
 <img width="400" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/4d64faaf-1250-4ca2-8e66-3c11a1e69d76">
@@ -50,14 +50,11 @@ We followed the definition of audio features provided by Spotify: (https://devel
 
 
 
-
-
-
 Step 3: 
 In Step 3, our objective was to analyze the audio features of the top ten artists' songs from the past five years.
 
 
-## 💪🏼 Data Collection Challenges:
+## 💪🏼 Data Collection Challenges
 Throughout the data collection section of our investigation our team encountered several challenges. However, through diligent problem-solving and collaboration, our team successfully devised solutions for each of these challenges.<br>
 
 Challenge|Solution|Outcome
