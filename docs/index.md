@@ -128,11 +128,11 @@ We have already found the values of each audio feature for each individual song 
 
 
 
-## Data Visualisation:!
-[dance](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/e5e7fc16-1663-4539-ae89-e3847e8fb31a)
+## Data Visualisation:
+![dance](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/3ac35441-36e8-40d6-af4e-a08be05ed33d)
 ![energy](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/d1d7d8d2-1007-455b-b4b3-b45bfc53b422)
-![key](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/b2bae055-9c2c-43b8-a19f-3408a446e3ff)
-![loudness](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/50d14a04-c45d-4109-b231-da0a67ebd785)
+![key](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/11cf673c-ed6f-421d-a2db-fa95b89b1a36)
+![loudness](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/a5d3d0b5-e571-4894-b5cd-80434894f0cc)
 ![mode](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/60b3f036-7a72-4152-973e-56ee29d88bb4)
 ![speechiness](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/409686fd-81bf-448f-a2ca-ad0b776c997a)
 ![avg_parallel](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/29ac8227-b58b-4057-9772-38553d1cc4bf)
