@@ -65,7 +65,7 @@ We used two sources of data for our research:<br>
 
 ## 📊 Exploratory Data Analysis
 ### Billboard Python Package
-We conducted an analysis of Billboard's "Billboard Hot 100" chart, which is a weekly music chart that ranks the 100 most popular songs in the United States based on multiple factors. Our objective was to investigate the top 10 artists over the past cumulative 5 years. To gather the necessary data, we utilized a Python Package called Billboard.py. The data collection process spanned from May 24, 2018, and continued on a weekly basis for a period of 5 years.
+We conducted an analysis of Billboard's "Billboard Hot 100" chart, which is a weekly music chart that ranks the 100 most popular songs in the United States based on multiple factors. Our objective was to investigate the top 10 artists over the past cumulative 5 years. To gather the necessary data, we utilised a Python Package called Billboard.py. The data collection process spanned from May 24, 2018, and continued on a weekly basis for a period of 5 years.
 <br>
 Please refer below to see the historical trend we obtained using the Billboard.py package. <br>
 <p align="middle">
@@ -84,7 +84,7 @@ Below shows a cleaned data frame, sorted artists by rank in charts, renamed colu
 
 
 ### Spotify API
-In a similar vein, we utilized the Spotify API to analyze the audio features of the top 50 songs per month over the past five years. Specifically, we focused on the "Weekly Top Songs Global" chart, which Spotify generates every Thursday and showcases the 200 most streamed songs worldwide for that week. Our data collection process also commenced on May 24, 2018, and we observed a total of 66 charts, corresponding to a frequency of one chart every four weeks over a span of five years. To obtain the necessary audio features, we leveraged the "Get several tracks' audio features" request within the Spotify API. This enabled us to acquire the audio features of up to 100 tracks at a time. As a result, we were able to gather comprehensive information about the audio characteristics of the top songs.
+In a similar vein, we utilised the Spotify API to analyze the audio features of the top 50 songs per month over the past five years. Specifically, we focused on the "Weekly Top Songs Global" chart, which Spotify generates every Thursday and showcases the 200 most streamed songs worldwide for that week. Our data collection process also commenced on May 24, 2018, and we observed a total of 66 charts, corresponding to a frequency of one chart every four weeks over a span of five years. To obtain the necessary audio features, we leveraged the "Get several tracks' audio features" request within the Spotify API. This enabled us to acquire the audio features of up to 100 tracks at a time. As a result, we were able to gather comprehensive information about the audio characteristics of the top songs.
 Below, you will find a screenshot from Microsoft Excel showcasing an example of the Spotify CSV Files, displaying the most-streamed songs during the week of May 24, 2018.
 <br>
 <p align="middle">
@@ -285,7 +285,7 @@ Kim leveraged his creative lens to design the overall aesthetic and visual appea
 David was responsible for overall direction and strategy of the project, including managing workflow, adjusting the scope, setting deadlines and ensuring the webpage told a coherent story that was in-line with our objectives and previous feedback. David also wrote portions of the web-page, including the executive summary, motivations, conclusion and next steps. 
 
 ### Toni
-Toni utilised her growing expertise in coding to, in tandem with Sasha, collect, analyse and visualise data from the Billboard.Py package. Specifically, Toni drafted functions to retrieve, parse and clean the data. This ensured Sasha and Jacen could also manipulate and analyse the data. Moreover, Toni used Plotnin to visualise the data across scatterplots and parallel coordinate planes. In particular, Toni was responsible for identifying the audio features of the top ten artists' songs, per year, and comparing these audio features to the wider industry benchmarks. 
+Toni utilised her growing expertise in coding to, in tandem with Sasha, collect, analyse and visualise data from the Billboard.Py package. Specifically, Toni drafted functions to retrieve, parse and clean the data. This ensured Sasha and Jacen could also manipulate and analyse the data. Moreover, Toni used Plotnine to visualise the data across scatterplots and parallel coordinate planes. In particular, Toni was responsible for identifying the audio features of the top ten artists' songs, per year, and comparing these audio features to the wider industry benchmarks. 
 
 ### Sasha
 Sasha played an integral role in bridging the web-pages overall strategy to its technical contents. On the technical side, Sasha utilises Pandas to filter, merge and pivot the raw data to prepare it for analysis. Sasha used this technical knowledge to inform the project's scope and set realistic technical goals within the context of our group's overall motivations. Sasha also was responsible for cleaning the repository. 
