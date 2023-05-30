@@ -76,7 +76,7 @@ Please refer below to see the historical Top 10 artists we obtained using the Bi
 ### Data Cleaning and Visualisation
 
 #### Billboard package
-Below shows a cleaned data frame , sorted artists by rank in charts, renamed columns, which made them easier to work with in future visualisations.<br>
+Below shows a cleaned data frame, sorted artists by rank in charts, renamed columns, which made them easier to work with in future visualisations.<br>
 <p align="middle">
  	<img width="650" alt="Billboard Data Visualisation.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/be9c08c7-d2e4-4b7b-8125-df422bdfc3d5">
 	<img width="650" alt="Billboard Data Cleaning.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/cee5feaf-02f7-4a76-9e24-333772712425">
@@ -94,10 +94,10 @@ Below, you will find a screenshot from Microsoft Excel showcasing an example of 
 </p>
 <br>
 
-A function that will find an artist's spotify ID using Spotify API:
+📇 A function that will find an artist's spotify ID using Spotify API <br>
 <img width="423" alt="image" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/30ed24db-fc78-4826-ab99-5e33280506bf">
 
-A function that will find an artist's sonngs and adds it to a dataframe
+📇 A function that will find an artist's sonngs and adds it to a dataframe <br> 
 <img width="452" alt="image" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/9c66b91e-4054-4498-a4d7-53de3025e6ff">
 
 Rounding the audio feature average so the data is presentable and easier to understand
