@@ -25,7 +25,8 @@ ___
 
 <img width="100" alt="Kim_avatar.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/a08e30f4-001a-40c3-a42e-b72c7aeadeaa">
 
-
+<br>
+<br>
 
 ## 📝 Executive Summary
 This project utilized data from streaming platforms' APIs, including Spotify and Billboard, to examine the influence of streaming services on the music industry. The project aimed to understand the evolution of audio features, changes in artist popularity, and potential correlations between audio feature trends and popular music trends.<br>
