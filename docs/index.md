@@ -68,8 +68,9 @@ We encountered a collaboration issue as there was a misalignment in our variable
 ## 📈 Data Analysis
 
 ### Determining "Industry Benchmarks"
+The objective of this stage is to establish "industry benchmarks" regarding global listening patterns. To achieve this, a weighted average of all the audio feature values for each chart will be computed. The intention is to demonstrate the overall significance of the audio features for each chart, such as determining the overall danceability value of the top 50 songs on a specific date, like 2018-05-24. Since the weekly charts indicate the number of streams received by a song, this information can be utilized to calculate a weighted average of the audio feature values. The weighted average is calculated by multiplying each song's audio feature value by its corresponding number of streams, adding up all 50 values, and dividing the sum by the total number of streams for the 50 songs. Consequently, the resulting dataframe will contain both the initial and final sections.
 ### Comparison
-First we get the overall average values for the most popular songs (Just get the mean of the values in the above dataframe). We use Sasha’s dataframe with the values for the top 10 artists: for each audio feature, we substract the overall average and the resulting value would be the difference between top artists and the industry benchmark.
+(Rough) First we get the overall average values for the most popular songs (Just get the mean of the values in the above dataframe). We use Sasha’s dataframe with the values for the top 10 artists: for each audio feature, we substract the overall average and the resulting value would be the difference between top artists and the industry benchmark.
 
 
 
