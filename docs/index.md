@@ -131,12 +131,17 @@ The calculation involves multiplying each song's value by the number of streams 
 As a result, the final dataframe will contain both the initial data sections and the consolidated industry benchmark.
 
 Below shows the heads and tails of the resulting dataframe:
-
+<p align="middle">
+  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/925fb4be-424f-4919-8796-406679c29430" width="450" />
+</p>
 
 ### Comparison
 Now that we have calculated weighted averages for each chart, to get an overall picture of the entire 5 year period, we will take the mean of all 66 values for each audio feature. This data will be referred as the overall weighted average or the “industry benchmark”. Then, using the previously calculated average values for the audio features of each artist (this is sasha’s dataframe), we then subtract each artist’s values with the overall weighted average for the most popular songs. This is so that we can measure how different each artist is to the general music industry. a value of 0 means that the artist is on par with the industry benchmark set by the most popular songs, and the further a value is from 0, the more different the artist is from the most popular songs
 
 The dataframe below shows these values:
+<p align="middle">
+  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/6b20dafd-7089-4b5d-b3d0-e308b9371117" width="450" />
+</p>
 
 ## 📑 Data Visualisation
 
