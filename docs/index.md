@@ -93,6 +93,11 @@ Below, you will find a screenshot from Microsoft Excel showcasing an example of 
 
 #### Data Cleaning and Visualisation
 Add the cleaned and visualised image here for Spotify API
+<img width="423" alt="image" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/30ed24db-fc78-4826-ab99-5e33280506bf">
+
+<img width="452" alt="image" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/9c66b91e-4054-4498-a4d7-53de3025e6ff">
+
+
 
 #### Audio Features
 We followed the definition of audio features provided by [Spotify Developer Documentation](https://developer.spotify.com/documentation/web-api/reference/get-several-audio-features): <br>
