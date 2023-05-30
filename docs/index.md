@@ -131,6 +131,17 @@ As a result, the final dataframe will contain both the initial data sections and
 
 
 ## 📑 Data Visualisation
+
+![dance](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/3ac35441-36e8-40d6-af4e-a08be05ed33d)
+![energy](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/d1d7d8d2-1007-455b-b4b3-b45bfc53b422)
+![speechiness](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/409686fd-81bf-448f-a2ca-ad0b776c997a)
+![Parallelplot](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/64f854ea-8fb2-4d94-b92a-fe5fc1d1a308)
+
+<br>
+Toni you could put your analysis here
+<br>
+<br>
+
 ### Plotting into Dataframe
 The primary goal of the initial visualization is to examine whether there are substantial differences between the audio features of the most popular artists and the most popular songs over the past five years. <br> In the preceding section, we had already computed the variance in average audio feature values between the top songs and top artists. To present this data visually, we created a radar chart using the plotly Python package. However, since the radar chart necessitated uniform measurement scales for all categories (i.e., audio features), we excluded loudness, tempo, and duration from the data due to their disparate measurement units (loudness in decibels, tempo in beats per minute, and duration in milliseconds). All other features were scaled between 0 and 1 for consistency. <br> The resulting radar chart is as follows: <br>
 <img width="800" alt="Radar_Chart.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/2d5ee9d4-9bc4-4ecd-bf66-ac5da49460cb">
@@ -215,17 +226,6 @@ To visualise how the audio features of the most popular songs have changed over 
    - Most of the popular songs last between 100000 and 250000 ms long (between 1:40 mins and 4:00 mins). 
    - Trendline is only slightly decreasing, but the average has still remained around 200000 ms (about 3:20 mins) over the years. The decreasing trendline aligns with the trend nowadays in pop music of songs getting shorter because of the growing popularity of streaming. This is because shorter songs are able to be streamed more times, leading to more revenue earned for artists and record companies.
 
-
-<br>
-<br>
-<br>
-
-
-
-![dance](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/3ac35441-36e8-40d6-af4e-a08be05ed33d)
-![energy](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/d1d7d8d2-1007-455b-b4b3-b45bfc53b422)
-![speechiness](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/409686fd-81bf-448f-a2ca-ad0b776c997a)
-![Parallelplot](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/64f854ea-8fb2-4d94-b92a-fe5fc1d1a308)
 
 
 ## Challenges:
