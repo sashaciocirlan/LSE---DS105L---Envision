@@ -141,7 +141,12 @@ The artist that appears to have the most deviation from the most popular songs i
 Other artists that appear to have visually significant deviations from the most popular songs include Lil Baby and DaBaby, whose songs have a speechiness score of about 0.2 more than the rest. This makes sense as they are rappers, which explains why there would be more spoken word in their songs. While Drake and Doja Cat, who are also in the top 10 artists list, are also rappers, their most popular songs over the past 5 years have been more pop than rap, as they sing more frequently than rap. That could explain why even though they both have the next-highest speechiness scores, they remain quite close to the overall average set by the most popular songs.
 
 ### Scatterplots
-To visualise how the audio features of the most popular songs have changed over time, or lack thereof, scatter plots with trend lines were created using the plotnine package. Each scatter plot shows all the values of one audio feature for all of the songs that have been analysed (i.e. top 50 songs every 4 weeks for 5 years). 
+To visualise how the audio features of the most popular songs have changed over time, or lack thereof, scatter plots with trend lines were created using the plotnine package. Each scatter plot shows all the values of one audio feature for all of the songs that have been analysed (i.e. top 50 songs every 4 weeks for 5 years). <br>
+
+1. Danceability
+   - The danceability scatter plot shows that most of the top songs have a value of more than 0.5, which indicates that popular songs tend to be danceable.
+   - However, the trendline in red is slightly decreasing. Even though it might indicate that songs are becoming less danceable, the small gradient of the slope does not necessarily show a significant trend.
+
 
 <br>
 <br>
