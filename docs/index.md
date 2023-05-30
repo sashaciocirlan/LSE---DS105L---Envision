@@ -96,7 +96,7 @@ Below, you will find a screenshot from Microsoft Excel showcasing an example of 
 Add the cleaned and visualised image here for Spotify API
 
 #### Audio Features
-We followed the definition of audio features provided by Spotify: (https://developer.spotify.com/documentation/web-api/reference/get-several-audio-features)<br>
+We followed the definition of audio features provided by [Spotify Developer Documentation](https://developer.spotify.com/documentation/web-api/reference/get-several-audio-features): <br>
 
 
 🕺 **Danceability**: How suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength and overall regularity. 
