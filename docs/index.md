@@ -28,7 +28,6 @@ date-meta: 20 March 2023
 
 - [Toni Byfield](): I'm Toni, a second-year economics student. I enjoy coding and love music. I've recently been hooked on the Cults, a favourite is 'Gilded Lily'. Check 'em out!
 
-<br>
 
 ## 📝 Executive Summary
 This project utilised data from streaming platforms' APIs, including Spotify and Billboard, to examine the influence of streaming services on the music industry. The project aimed to understand the evolution of audio features, changes in artist popularity, and potential correlations between audio feature trends and popular music trends.<br>
