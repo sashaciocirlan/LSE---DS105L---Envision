@@ -48,29 +48,6 @@ Spotify's weekly charts did not provide easy access to their historical data, ma
 We encountered a collaboration issue as there was a misalignment in our variable names and general code style. This lack of coherence in our functions between group members initially prevented us from collecting the data. For instance, one collaborator used the variable name 'Artist' while another used 'Top Ten Artist'.|To resolve this issue, we carefully reviewed and adjusted the variable names to ensure consistency. This enabled us to successfully execute the code.|Although seemingly minor, we argue that this is a common yet deceptively difficult challenge faced by data scientists when collaborating. As a result, we adopted a practice of establishing a baseline 'style' at the beginning of each collaborative coding session, which greatly streamlined the process.
 
 
-(Rough)<br>
-What are audio features according to Spotify?
-Documentation: https://developer.spotify.com/documentation/web-api/reference/get-several-audio-features
-Audio features are as follows:
-Danceability - how suitable a track is for dancing (0 is least danceable, 1 is most danceable)
-Energy - perceptual measure of intensity and activity (0 is least energetic, 1 is most energetic)
-Instrumentalness - how much vocals there are in a track (0 is least instrumental (ie. most vocal), 1 is most instrumental (ie. no vocals)
-Liveness - likelihood of audience present (between 0 and 1)
-Loudness - loudness of a track in decibels (dB) (higher values = louder)
-Acousticness - how acoustic a track is (acoustic = no electrical amplification)
-Speechiness - how much spoken word there is in a track (0 is least (only music), 1 is most (no music, only speaking), rap music would fall in between)
-Tempo - tempo of the track in beats per minute (higher means the track is faster)
-Valence - the musical happiness conveyed by the track (0 is saddest, 1 is happiest)
-Duration_ms - the duration of the song in milliseconds
-
-Using the Spotify API
-The Spotify API ‘Get several tracks’ audio features’ request allows us to get the audio features of up to 100 songs
-So we will do this for the top 50 songs every 4 weeks for the past 5 years
-Below is an example dataframe showing the audio features of the songs from 2018-05-24
-
-
-
-
 ## Data Analysis
 
 #### Step 4.
