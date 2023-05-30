@@ -1,9 +1,3 @@
----
-title: "Tuning Into Your Music"
-date: 20 March 2023
-date-meta: 20 March 2023
----
-
 # _Leader or Follower_: Exploring the Relationship Between Popular Artists and Music Trends
 
 <p align="middle">
