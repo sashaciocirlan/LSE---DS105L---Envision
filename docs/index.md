@@ -35,6 +35,7 @@ Similarly, we looked at the Spotify API to investigate the audio features of the
 Below is a screenshot of our Spotify CSV File from Microsoft Excel.<br>
 <img width="500" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/015125f8-9b2e-4e84-a2fc-f9b05bdd5972">
 <br>
+#### Audio Features
 We followed the definition of audio features provided by Spotify: (https://developer.spotify.com/documentation/web-api/reference/get-several-audio-features)<br>
 * Danceability - how suitable a track is for dancing (0 is least danceable, 1 is most danceable)
 * Energy - perceptual measure of intensity and activity (0 is least energetic, 1 is most energetic)
