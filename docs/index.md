@@ -95,58 +95,45 @@ Add the cleaned and visualised image here for Spotify API
 We followed the definition of audio features provided by Spotify: (https://developer.spotify.com/documentation/web-api/reference/get-several-audio-features)<br>
 We followed the definition of audio features provided by Spotify: (https://developer.spotify.com/documentation/web-api/reference/get-several-audio-features)<br>
 
-* Danceability*: How suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength and overall regularity. 
+🕺 **Danceability**: How suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength and overall regularity. 
 
 	number[float] 
 
-* Energy*: A perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud and noisy. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy. 
+⚡️ **Energy**: A perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud and noisy. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy. 
 
 	number[float] 
 
-*Instrumentalness*: This predicts whether a track contains no vocals. ‘Ooh’ and ‘aah’ sounds are treated as instrumental in this context. Rap or spoken words are clearly ‘vocal’. Values above 0.5 are intended to represent instrumental tracks but confidence is higher as the value approaches 1.0 
+🎼 **Instrumentalness**: This predicts whether a track contains no vocals. ‘Ooh’ and ‘aah’ sounds are treated as instrumental in this context. Rap or spoken words are clearly ‘vocal’. Values above 0.5 are intended to represent instrumental tracks but confidence is higher as the value approaches 1.0 
 
 	number[float] 
 
-*Liveness*: Detects the presence of an audience in the recording. A value above 0.8 provides strong likelihood that the track is live. 
+🖖 **Liveness**: Detects the presence of an audience in the recording. A value above 0.8 provides strong likelihood that the track is live. 
 
 	number[float] 
 
-*Loudness*: The overall loudness of the track in decibels (dB). Loudness values are averaged across the entire track. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values range between -60 and 0 dB. 
+📢 **Loudness**: The overall loudness of the track in decibels (dB). Loudness values are averaged across the entire track. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values range between -60 and 0 dB. 
 
-*Acousticness*: A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 
-
-	number[float] 
-
-*Speechiness*: Detects the presence of spoken words in a track. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. 
+👂 **Acousticness**: A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 
 
 	number[float] 
 
-*Tempo*: The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration. 
+💬 **Speechiness**: Detects the presence of spoken words in a track. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. 
 
 	number[float] 
 
-*Valence*: The musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful and euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry). 
+💨 **Tempo**: The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration. 
 
 	number[float] 
 
-Duration: The duration of the track in milliseconds. 
+😹 **Valence**: The musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful and euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry). 
+
+	number[float] 
+
+⏳ **Duration**: The duration of the track in milliseconds. 
 
 	Integer 
 
-All features, barring *Duration* and *Loudness*, utilise a scale of 0 to 1, with 0 being least (e.g. lowest possible speechiness) and 1 being most (e.g. highest possible speechiness). 
-
-* 🕺🏽 Danceability: How suitable a track is for dancing (0 is least danceable, 1 is most danceable)
-* ⚡️ Energy: Perceptual measure of intensity and activity (0 is least energetic, 1 is most energetic)
-* 🎼 Instrumentalness - how much vocals there are in a track (0 is least instrumental (ie. most vocal), 1 is most instrumental (ie. no vocals)
-* 🖖 Liveness - likelihood of audience present (between 0 and 1)
-* 📢 Loudness - loudness of a track in decibels (dB) (higher values = louder)
-* 👂 Acousticness - how acoustic a track is (acoustic: no electrical amplification)
-* 💬 Speechiness - how much spoken word there is in a track (0 is least (only music), 1 is most (no music, only speaking), rap music would fall in between)
-* 💨 Tempo - tempo of the track in beats per minute (higher means the track is faster)
-* 😹 Valence - the musical happiness conveyed by the track (0 is saddest, 1 is happiest)
-* ⏳ Duration - the duration of the song in milliseconds
-
-
+All features, barring **Duration** and **Loudness**, utilise a scale of 0 to 1, with 0 being least (e.g. lowest possible speechiness) and 1 being most (e.g. highest possible speechiness). 
 
 Step 3: 
 In Step 3, our objective was to analyze the audio features of the top ten artists' songs from the past five years.
