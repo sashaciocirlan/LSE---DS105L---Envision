@@ -315,6 +315,21 @@ In essence, this in-depth study suggests that the future of popular music is set
 
 However, they will also have to strike a balance with prevailing industry trends, aligning their music with the evolving preferences of listeners. As we continue to move forward, the artists who can best navigate this delicate balance of tradition and innovation will shape the future landscape of popular music, leaving their unique imprint on the evolving rhythm of the industry.
 
+### ❔ Limitations:
+Our study was insightful, but it also had some inherent statistical limitations.
+
+1. Sampling Bias: The choice to focus on the top 10 artists from the Billboard Hot 100 is a convenience sampling method, which is prone to bias. These artists are not necessarily representative of all artists in the music industry. Future analyses could benefit from a random sampling approach across a wider range of artists.
+
+2. Temporal Scope: Our data covers a span of several years, yet this might not be enough to detect long-term trends. The music industry is greatly influenced by broader cultural shifts that can take decades to manifest.
+
+3. Variable Selection: We only considered several audio features in our analysis. Other potential predictors of song popularity were not included in the study due to data constraints, such as lyrics, promotional activities, collaborations, and the artist's public image.
+
+4. Statistical Significance: While we identified some trends and made comparisons between the top 10 artists and industry benchmarks, we did not perform statistical tests to confirm the significance of these differences. Thus, the observed differences might be due to random variation rather than a true difference.
+
+5. Causality: Our study is observational in nature. Even though we can identify associations between the top artists' songs and their alignment with the industry benchmarks, we can't establish causality. For instance, we can't definitively say whether the songs are popular because they align with industry trends or whether the artists' success causes those trends.
+
+6. Addressing these limitations in future research would involve expanding the scope of data collection, employing more robust statistical techniques, and adopting a more comprehensive research design to control for potential confounding variables. Such improvements would bolster the robustness of our findings and offer a deeper understanding of the forces shaping trends in the music industry.
+
 ## 🌟 Next Steps: 
 
 We know that our analysis only scratches the surfaces of an ever-changing and fascinating industry that we all love - music. As we move forward we aim to continue to develop our skills acquired in DS105 and leverage them to learn new insights about music and maybe achieve our initial ambitious goals to create a ML model =) 
