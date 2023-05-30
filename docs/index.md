@@ -197,7 +197,9 @@ Toni you could put your analysis here
 <br>
 
 ### Plotting into Dataframe
-The primary goal of the initial visualization is to examine whether there are substantial differences between the audio features of the most popular artists and the most popular songs over the past five years. <br> In the preceding section, we had already computed the variance in average audio feature values between the top songs and top artists. To present this data visually, we created a radar chart using the _plotly_ Python package. However, since the radar chart necessitated uniform measurement scales for all categories (i.e., audio features), we excluded loudness, tempo, and duration from the data due to their disparate measurement units (loudness in decibels, tempo in beats per minute, and duration in milliseconds). All other features were scaled between 0 and 1 for consistency. <br> 
+The primary goal of the initial visualization is to examine whether there are substantial differences between the audio features of the most popular artists and the most popular songs over the past five years. <br> In the preceding section, we had already computed the variance in average audio feature values between the top songs and top artists. 
+
+📊 To present this data visually, we created a radar chart using the _plotly_ Python package. However, since the radar chart necessitated uniform measurement scales for all categories (i.e., audio features), we excluded loudness, tempo, and duration from the data due to their disparate measurement units (loudness in decibels, tempo in beats per minute, and duration in milliseconds). All other features were scaled between 0 and 1 for consistency. <br> 
 
 The resulting radar chart is as follows: <br>
 <img width="800" alt="Radar_Chart.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/2d5ee9d4-9bc4-4ecd-bf66-ac5da49460cb">
