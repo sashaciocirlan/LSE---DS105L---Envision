@@ -54,7 +54,6 @@ Throughout our project, we embarked with a set of guiding questions:<br>
 * What are the most popular audio features, and how have they evolved over time?<br>
 * How has the popularity of artists changed over time?<br>
 * Is there a correlation between the evolution of audio features among top artists and the overall trends in popular music?<br>
-<br>
 While not all of these questions fell strictly within the scope of our analysis, they served as initial guiding points. Ultimately, our collective interest in music propelled us to undertake this project. Specifically, we sought to understand how, if at all, music has evolved over the last five years, and how the most popular artists' own stylistic choices relate to this evolution.
 
 ## 👨‍💻 Data Sources
