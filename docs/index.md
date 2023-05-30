@@ -94,14 +94,14 @@ Below, you will find a screenshot from Microsoft Excel showcasing an example of 
 </p>
 <br>
 
-📇 A function that will find an artist's spotify ID using Spotify API <br>
+📇 Here is a function that will find an artist’s Spotify ID using Spotify API. To get data about artists (like the audio features of their songs) you first need to get their artist ID. Rather than searching for this manually, this function does get the ID when the artist’s name is entered.  <br>
 <img width="423" alt="image" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/30ed24db-fc78-4826-ab99-5e33280506bf">
 
-📇 A function that will find an artist's sonngs and adds it to a dataframe <br> 
+📇 Here is a function that gathers the artist’s songs, albums, and release dates and outputs them.  All that needs to be entered is the artist’s Spotify ID, then the function proceeds to get the information. The variable “trim_name” is used to make sure there are no duplicate albums being outputted.<br> 
 <img width="452" alt="image" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/9c66b91e-4054-4498-a4d7-53de3025e6ff">
 
-Rounding the audio feature average so the data is presentable and easier to understand
 
+When we calculated the average audio features for each artist the data came back messy. Each audio feature had results that had a variety of different decimal places. To make the data presentable and easy to read, each result was rounded to 3 decimal places.<br>
 <img width="452" alt="image" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/936bb3af-aad8-4501-ba9d-e6885b87b7b4">
 
 
