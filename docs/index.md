@@ -101,7 +101,7 @@ Below, you will find a screenshot from Microsoft Excel showcasing an example of 
 <img width="452" alt="image" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/9c66b91e-4054-4498-a4d7-53de3025e6ff">
 
 
-When we calculated the average audio features for each artist the data came back messy. Each audio feature had results that had a variety of different decimal places. To make the data presentable and easy to read, each result was rounded to 3 decimal places.<br>
+📇 When we calculated the average audio features for each artist the data came back messy. Each audio feature had results that had a variety of different decimal places. To make the data presentable and easy to read, each result was rounded to 3 decimal places.<br>
 <img width="452" alt="image" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/936bb3af-aad8-4501-ba9d-e6885b87b7b4">
 
 
