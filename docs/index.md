@@ -4,17 +4,22 @@ date: 20 March 2023
 date-meta: 20 March 2023
 ---
 
-# 🤖 Project Title
+# "TUNING INTO YOUR MUSIC": Exploring popular song features and trends
 
 **Team members:** 
 
-- [Sasha]()
-- [Jacen]()
-- [Toni]()
-- [David] ()
-- [Kim]
+- [Sasha Ciocirlan](): I'm Sasha, a final-year Politics and Economics student at the LSE. Although I'm not your typical number-cruncher, I've taken a detour into data science and found a new passion, and am bringing a deep love for music to the project.
+<img width="100" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/13779df8-04a2-48c7-bf6c-60101d775ce4">
 
-## 📝 Project Description
+- [Jacen Hutagaol](): I'm Jacen, a first-year Politics and Data Science student who secretly wishes there was a degree in Pop Music [with Data Science]. You will rarely find me without my earphones, which have recently been blasting Kylie Minogue and K-Pop stars Le Sserafim.
+- [Toni Byfield](): I'm Toni, a second-year economics student. I enjoy coding and love music. I've recently been hooked on the Cults, a favourite is 'Gilded Lily'. Check 'em out!
+- [David Bredin](): I'm David, a final-year Politics student at the LSE. I've developed a strong interest in Big Data, and spent time in strategy at a start-up utilising AI to automate MRI annotations. With DS105, I've dug into the technical side of data science and I'm hooked! 
+
+<img width="100" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/a1f2e603-e90a-4d95-b42f-68aa03080e9e">
+
+- [HyeongJu Kim](): I'm HyeongJu, a first year student at LSE, pursuing a degree in Politics and Data Science. The raw emotion and storytelling embedded in rap captivate me, and I believe there is a profound connection between the world of politics and the lyrical power of hip-hop!
+<img width="100" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/1727bde8-e630-4d26-9a23-c064ee658c85">
+
 
 ## Motivation:
 Streaming services have brought about a significant transformation in the music industry, offering users convenient and cost-effective access to a vast catalog of songs. These services play a pivotal role in shaping artist visibility, revenue streams, and listening preferences. Moreover, the publicly available APIs provided by streaming platforms like Spotify, Apple Music, and Amazon Music offer unparalleled insights into various dimensions, including geography, audio features, and time, shedding light on trends among both artists and listeners.<br>
@@ -42,7 +47,7 @@ Throughout the data collection section of our investigation our team encountered
 
 #### Step 1
 In Step 1, our objective was to investigate the top 10 artists of the past 5 years using Billboard’s weekly ‘Billboard Hot 100’ chart. Below is a cropped screenshot of the Billboard chart.<br>
-<img src="./Billboard Chart.png" style="height:45%;width:65%">
+<img width="400" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/4d64faaf-1250-4ca2-8e66-3c11a1e69d76">
 
 Challenge|Solution|Outcome
 :---|:---|:---
@@ -59,8 +64,40 @@ Challenge|Solution|Outcome
 :---|:---|:---
 Spotify's weekly charts did not provide easy access to their historical data, making it challenging for us to collect the required information.|After extensive research, we discovered that Spotify's historical data was stored in CSV files (insert photo). Therefore, we manually downloaded the CSV files and imported them into pandas dataframes for analysis.|This process taught us a valuable lesson about the accessibility of data. It served as a reminder that data is often not readily available and may require substantial effort to obtain. Additionally, we recognized the importance of data transformation when working with diverse data sources, as traditional organizations may employ storage formats that are less convenient but contain vital data, that data scientists have to work with while conducting analysis or transitioning an organization to a more modern data storage method. 
 
+<br>
+
+(Rough)Part 1: finding trends in the most popular music of the past 5 years
+Data set used: ‘Weekly Top Songs Global’ by Spotify
+Chart of the 200 most-streamed songs worldwide of the week released every Thursday
+Historical charts provided in the form of CSV files
+Data will be collected from the chart of 2018-05-24
+We will look at the charts every 4 weeks for the next 5 years
+Total of 66 charts
+
+
+
 Below is a screenshot of our Spotify CSV File from Microsoft Excel.<br>
-<img src="./CSV File.png" style="height:65%;width:65%">
+<img width="500" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/015125f8-9b2e-4e84-a2fc-f9b05bdd5972">
+
+(Rough)<br>
+What are audio features according to Spotify?
+Documentation: https://developer.spotify.com/documentation/web-api/reference/get-several-audio-features
+Audio features are as follows:
+Danceability - how suitable a track is for dancing (0 is least danceable, 1 is most danceable)
+Energy - perceptual measure of intensity and activity (0 is least energetic, 1 is most energetic)
+Instrumentalness - how much vocals there are in a track (0 is least instrumental (ie. most vocal), 1 is most instrumental (ie. no vocals)
+Liveness - likelihood of audience present (between 0 and 1)
+Loudness - loudness of a track in decibels (dB) (higher values = louder)
+Acousticness - how acoustic a track is (acoustic = no electrical amplification)
+Speechiness - how much spoken word there is in a track (0 is least (only music), 1 is most (no music, only speaking), rap music would fall in between)
+Tempo - tempo of the track in beats per minute (higher means the track is faster)
+Valence - the musical happiness conveyed by the track (0 is saddest, 1 is happiest)
+Duration_ms - the duration of the song in milliseconds
+
+Using the Spotify API
+The Spotify API ‘Get several tracks’ audio features’ request allows us to get the audio features of up to 100 songs
+So we will do this for the top 50 songs every 4 weeks for the past 5 years
+Below is an example dataframe showing the audio features of the songs from 2018-05-24
 
 
 
