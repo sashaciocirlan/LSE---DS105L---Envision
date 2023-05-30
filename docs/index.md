@@ -18,7 +18,7 @@ date-meta: 20 March 2023
 <img width="100" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/a1f2e603-e90a-4d95-b42f-68aa03080e9e">
 
 - [HyeongJu Kim](): I'm HyeongJu, a first year student at LSE, pursuing a degree in Politics and Data Science. The raw emotion and storytelling embedded in rap captivate me, and I believe there is a profound connection between the world of politics and the lyrical power of hip-hop!
-<img width="100" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/b887141d-88df-4521-8b82-837a49c9a346">
+<img width="100" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/1727bde8-e630-4d26-9a23-c064ee658c85">
 
 ## 📝 Project Description
 This project utilized data from streaming platforms' APIs, including Spotify and Billboard, to examine the influence of streaming services on the music industry. The project aimed to understand the evolution of audio features, changes in artist popularity, and potential correlations between audio feature trends and popular music trends.<br>
