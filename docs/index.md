@@ -73,14 +73,15 @@ Please refer below to see the historical Top 10 artists we obtained using the Bi
   <img width="484" alt="Screenshot 2023-05-29 at 12 32 09" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/12870658/54f6ef69-a7f6-4d7f-97d0-b0bee2ea9404">
 </p>
 
-#### Data Cleaning and Visualisation
-Below shows a cleaned data frame, sorted artists by rank in charts, renamed columns, which made them easier to work with in future visualisations.<br>
+### Data Cleaning and Visualisation
+
+#### Billboard package
+Below shows a cleaned data frame , sorted artists by rank in charts, renamed columns, which made them easier to work with in future visualisations.<br>
 <p align="middle">
  	<img width="650" alt="Billboard Data Visualisation.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/be9c08c7-d2e4-4b7b-8125-df422bdfc3d5">
 	<img width="650" alt="Billboard Data Cleaning.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/cee5feaf-02f7-4a76-9e24-333772712425">
   
 </p>
-
 
 
 
@@ -93,7 +94,6 @@ Below, you will find a screenshot from Microsoft Excel showcasing an example of 
 </p>
 <br>
 
-#### Data Cleaning and Visualisation
 A function that will find an artist's spotify ID using Spotify API:
 <img width="423" alt="image" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/30ed24db-fc78-4826-ab99-5e33280506bf">
 
