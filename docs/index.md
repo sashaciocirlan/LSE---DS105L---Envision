@@ -34,8 +34,8 @@ In Step 2, our objective was to investigate the audio features of the top 50 son
 Below is a screenshot of our Spotify CSV File from Microsoft Excel.<br>
 <img width="500" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/015125f8-9b2e-4e84-a2fc-f9b05bdd5972">
 
-### Data Collection Challenges:
-Throughout the data collection section of our investigation our team encountered several challenges.<br>
+## Data Collection Challenges:
+Throughout the data collection section of our investigation our team encountered several challenges. However, through diligent problem-solving and collaboration, our team successfully devised solutions for each of these challenges.<br>
 
 Challenge|Solution|Outcome
 :---|:---|:---
