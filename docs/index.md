@@ -202,9 +202,7 @@ Very varied averages ,however most are below 0.3 suggesting less speechy songs a
 <br>
 
 ### Plotting into Dataframe
-The primary goal of the initial visualization is to examine whether there are substantial differences between the audio features of the most popular artists and the most popular songs over the past five years. <br> In the preceding section, we had already computed the variance in average audio feature values between the top songs and top artists. 
 
-### Scatterplots
 To visualise how the audio features of the most popular songs have changed over time, or lack thereof, scatter plots with trend lines were created using the plotnine package. Each scatter plot shows all the values of one audio feature for all of the songs that have been analysed (i.e. top 50 songs every 4 weeks for 5 years). <br>
 
 1. Danceability
@@ -291,6 +289,7 @@ On the radar chart, a value of 0 means that the average value of the audio featu
 👉 The artist that appears to have the most deviation from the most popular songs is Billie Eilish. Her acousticness score is almost 0.6 higher than the most popular songs, and her energy score is about 0.4 lower as well. This means that her music tends to be a lot more acoustic and less energetic than a typical song one would hear on the radio today.<br>
 
 👉 Other artists that appear to have visually significant deviations from the most popular songs include Lil Baby and DaBaby, whose songs have a speechiness score of about 0.2 more than the rest. This makes sense as they are rappers, which explains why there would be more spoken word in their songs. While Drake and Doja Cat, who are also in the top 10 artists list, are also rappers, their most popular songs over the past 5 years have been more pop than rap, as they sing more frequently than rap. That could explain why even though they both have the next-highest speechiness scores, they remain quite close to the overall average set by the most popular songs.
+
 ## 🕛 Conclusions: 
 
 Successful artists, while following certain industry benchmarks, also introduce their own unique elements that have the potential to influence future music trends.
