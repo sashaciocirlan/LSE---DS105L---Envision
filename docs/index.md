@@ -17,7 +17,7 @@ Throughout our project, we embarked with a set of guiding questions:<br>
 <br>
 While not all of these questions fell strictly within the scope of our analysis, they served as initial guiding points. Ultimately, our collective interest in music propelled us to undertake this project. Specifically, we sought to understand how, if at all, music has evolved over the last five years, and how the most popular artists' own stylistic choices relate to this evolution.
 
-## Data Sources:
+## 👨‍💻 Data Sources:
 We used two sources of data for our research:<br>
 * Billboard (Billboard API) via Python Package (pypi.python.org/pypi/billboard.py) 
 * Spotify (Spotify API) (https://developer.spotify.com/documentation/web-api)<br>
