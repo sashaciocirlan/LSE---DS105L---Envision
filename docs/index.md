@@ -237,15 +237,3 @@ To visualise how the audio features of the most popular songs have changed over 
 ## Conclusion:
 
 
-
-
-
-## 📊 Data
-
-## 📈 Analysis
-
-## 🖼️ Results
-
-## 🖋️ Conclusions
-
-## 📚 References
