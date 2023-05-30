@@ -72,7 +72,7 @@ Spotify's weekly charts did not provide easy access to their historical data, ma
 
 <br>
 
-Part 1: finding trends in the most popular music of the past 5 years
+(Rough)Part 1: finding trends in the most popular music of the past 5 years
 Data set used: ‘Weekly Top Songs Global’ by Spotify
 Chart of the 200 most-streamed songs worldwide of the week released every Thursday
 Historical charts provided in the form of CSV files
@@ -85,6 +85,25 @@ Total of 66 charts
 Below is a screenshot of our Spotify CSV File from Microsoft Excel.<br>
 <img width="500" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/015125f8-9b2e-4e84-a2fc-f9b05bdd5972">
 
+(Rough)<br>
+What are audio features according to Spotify?
+Documentation: https://developer.spotify.com/documentation/web-api/reference/get-several-audio-features
+Audio features are as follows:
+Danceability - how suitable a track is for dancing (0 is least danceable, 1 is most danceable)
+Energy - perceptual measure of intensity and activity (0 is least energetic, 1 is most energetic)
+Instrumentalness - how much vocals there are in a track (0 is least instrumental (ie. most vocal), 1 is most instrumental (ie. no vocals)
+Liveness - likelihood of audience present (between 0 and 1)
+Loudness - loudness of a track in decibels (dB) (higher values = louder)
+Acousticness - how acoustic a track is (acoustic = no electrical amplification)
+Speechiness - how much spoken word there is in a track (0 is least (only music), 1 is most (no music, only speaking), rap music would fall in between)
+Tempo - tempo of the track in beats per minute (higher means the track is faster)
+Valence - the musical happiness conveyed by the track (0 is saddest, 1 is happiest)
+Duration_ms - the duration of the song in milliseconds
+
+Using the Spotify API
+The Spotify API ‘Get several tracks’ audio features’ request allows us to get the audio features of up to 100 songs
+So we will do this for the top 50 songs every 4 weeks for the past 5 years
+Below is an example dataframe showing the audio features of the songs from 2018-05-24
 
 
 
