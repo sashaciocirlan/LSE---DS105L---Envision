@@ -8,7 +8,7 @@ date-meta: 20 March 2023
 
 <p align="middle">
   <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/5be08ffe-45cc-463a-935f-53e407d0f411" width="450" />
-  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/c8eae849-4941-4523-9c07-d54260eed2ee" width="350" /> 
+  <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/c8eae849-4941-4523-9c07-d54260eed2ee" width="400" /> 
 </p>
 
 
