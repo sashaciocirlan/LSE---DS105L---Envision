@@ -62,7 +62,7 @@ We used two sources of data for our research:<br>
 * Spotify (Spotify API) (https://developer.spotify.com/documentation/web-api)<br>
 
 ## 📊 Exploratory Data Analysis
-### Billboard API
+### Billboard Python Package
 We looked at Billboard’s weekly “Billboard Hot 100” chart, a weekly music chart that ranks the 100 most popular songs in the United States on various factors, to investigate the top 10 artists of the past 5 years cumulative. Due to reasons that will be specified below, we obtained data from a Python Package called Billboard.py. Data were collected from 2018/05/24, and we observed weekly for 5 years. 
 <br>
 Refer to below for our obtained historic trend from Billboard.py<br>
@@ -73,8 +73,10 @@ Refer to below for our obtained historic trend from Billboard.py<br>
 #### Data Cleaning and Visualisation
 Below shows a cleaned data frame, sorted artists by rank in charts, renamed columns, which made them easier to work with in future visualisations.<br>
 <p align="middle">
-  <img width="500" alt="Billboard Data Cleaning.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/cee5feaf-02f7-4a76-9e24-333772712425">
-  <img width="500" alt="Billboard Data Visualisation.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/be9c08c7-d2e4-4b7b-8125-df422bdfc3d5">
+ <img width="500" alt="Billboard Data Visualisation.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/be9c08c7-d2e4-4b7b-8125-df422bdfc3d5">
+ 
+<img width="500" alt="Billboard Data Cleaning.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/cee5feaf-02f7-4a76-9e24-333772712425">
+  
 </p>
 
 
