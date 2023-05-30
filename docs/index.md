@@ -154,7 +154,7 @@ We encountered a collaboration issue as there was a misalignment in our variable
 
 ## 🧐 Data Analysis
 
-### Determining *Industry Benchmarks*
+### Determining Industry Benchmarks
 We have successfully gathered data on the audio features of individual songs spanning the past 5 years. Our aim now is to consolidate this information into an **Industry Benchmark** that offers a comprehensive view of the sound characteristics prevalent in the most popular songs. To accomplish this, we have computed weighted averages for each audio feature.
 
 The calculation process entails multiplying the value of each song's audio feature by the number of streams it received within a specific week. Subsequently, we aggregate the feature values for the top 50 songs and divide the sum by the total number of streams accumulated by those songs in that particular week. This methodology ensures that songs with higher streaming figures exert a more significant influence on the weighted average, resulting in a value that better reflects the listening habits of the audience.
@@ -165,9 +165,11 @@ Consequently, the final dataframe encompasses both the initial sections of data 
 </p>
 
 ### Comparison
-Now that we have calculated weighted averages for each chart, to get an overall picture of the entire 5 year period, we will take the mean of all 66 values for each audio feature. This data will be referred as the overall weighted average or the “industry benchmark”. Then, using the previously calculated average values for the audio features of each artist (this is sasha’s dataframe), we then subtract each artist’s values with the overall weighted average for the most popular songs. This is so that we can measure how different each artist is to the general music industry. a value of 0 means that the artist is on par with the industry benchmark set by the most popular songs, and the further a value is from 0, the more different the artist is from the most popular songs
+After calculating weighted averages for each chart, we aim to obtain an overall understanding of the entire 5-year period by calculating the mean of all 66 values for each audio feature. This aggregated data is the aforementioned **Industry Benchmark** or the overall weighted average.
 
-The dataframe below shows these values:
+Next, utilizing the previously computed average values for the audio features of each artist, we proceed to subtract each artist's values from the overall weighted average of the most popular songs. This process allows us to gauge the divergence of each artist from the general music industry. A value of 0 indicates that the artist aligns with the industry benchmark established by the most popular songs. Conversely, the further a value deviates from 0, the more distinct the artist is from the most popular songs.
+
+Below is the dataframe displaying these values: 
 <p align="middle">
   <img src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/6b20dafd-7089-4b5d-b3d0-e308b9371117" width="500" />
 </p>
