@@ -4,11 +4,12 @@ date: 20 March 2023
 date-meta: 20 March 2023
 ---
 
-# _Leader or Follower?_: Exploring the Relationship Between Popular Artists and Music Trends
+# _Leader or Follower_: Exploring the Relationship Between Popular Artists and Music Trends
 
 **Team members:** 
 
 - [Sasha Ciocirlan](): I'm Sasha, a final-year Politics and Economics student at the LSE. Although I'm not your typical number-cruncher, I've taken a detour into data science and found a new passion, and am bringing a deep love for music to the project.
+
 <img width="100" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/13779df8-04a2-48c7-bf6c-60101d775ce4">
 
 - [Jacen Hutagaol](): I'm Jacen, a first-year Politics and Data Science student who secretly wishes there was a degree in Pop Music [with Data Science]. You will rarely find me without my earphones, which have recently been blasting Kylie Minogue and K-Pop stars Le Sserafim.
@@ -18,8 +19,8 @@ date-meta: 20 March 2023
 <img width="100" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/a1f2e603-e90a-4d95-b42f-68aa03080e9e">
 
 - [HyeongJu Kim](): I'm HyeongJu, a first year student at LSE, pursuing a degree in Politics and Data Science. The raw emotion and storytelling embedded in rap captivate me, and I believe there is a profound connection between the world of politics and the lyrical power of hip-hop!
-<img width="100" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/1727bde8-e630-4d26-9a23-c064ee658c85">
 
+<img width="100" alt="Kim.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/1727bde8-e630-4d26-9a23-c064ee658c85">
 
 ## Motivation:
 Streaming services have brought about a significant transformation in the music industry, offering users convenient and cost-effective access to a vast catalog of songs. These services play a pivotal role in shaping artist visibility, revenue streams, and listening preferences. Moreover, the publicly available APIs provided by streaming platforms like Spotify, Apple Music, and Amazon Music offer unparalleled insights into various dimensions, including geography, audio features, and time, shedding light on trends among both artists and listeners.<br>
@@ -29,20 +30,14 @@ Throughout our project, we embarked with a set of guiding questions:<br>
 * How has the popularity of artists changed over time?<br>
 * Is there a correlation between the evolution of audio features among top artists and the overall trends in popular music?<br>
 <br>
-While not all of these questions fell strictly within the scope of our analysis, they served as initial guiding points. Ultimately, our deep passion for music and curiosity propelled us to undertake this project, as we sought personal enjoyment and a deeper understanding of the subject matter.
+While not all of these questions fell strictly within the scope of our analysis, they served as initial guiding points. Ultimately, our collective interest in music propelled us to undertake this project. Specifically, we sought to understand how, if at all, music has evolved over the last five years, and how the most popular artists' own stylistic choices relate to this evolution.
 
-
-
-## Aims & Objectives:
-### Main objectives:
-
-
-## Data and Data Challenges:
+## Data Sources:
 We used two sources of data for our research:<br>
 * Billboard (Billboard API) via Python Package (pypi.python.org/pypi/billboard.py) 
 * Spotify (Spotify API) (https://developer.spotify.com/documentation/web-api)<br>
 
-### Data Challenges:
+### Data Collection Challenges:
 Throughout the data collection section of our investigation our team encountered several challenges.<br>
 
 #### Step 1
