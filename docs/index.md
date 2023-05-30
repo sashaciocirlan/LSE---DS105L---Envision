@@ -42,7 +42,7 @@ Through five key steps, the project explored these aspects.
 * Collecting data on the audio features of the top 50 songs per month during this period. 
 * Examining the audio features of the top ten artists' songs over the past five years.
 * Establishing industry benchmarks by calculating average values and standard deviations or ranges of audio feature categories. This identifies the audio features that experienced the most and least change over time. 
-* Comparing the analysis from Step 4 to the audio features of the top ten artists' songs, using visualizations like scatter plots and radar graphs to represent the findings.
+* Comparing the analysis from Step 4 to the audio features of the top ten artists' songs, using visualisations like scatter plots and radar graphs to represent the findings.
 
 The findings hold significance for artists, industry professionals, and streaming platforms. Understanding evolving audio feature preferences and artist popularity informs decision-making for song production, marketing, and playlist curation. Exploring correlations between audio feature trends and popular music trends contributes to predicting future music preferences and shaping the industry's direction.<br>
 In conclusion, this project harnessed data from streaming platforms to investigate the impact of streaming services on the music industry. By analysing audio features and artist popularity, valuable insights were gained into the evolution of music preferences and potential connections with overall trends. These findings offer practical implications for decision-making in the music industry and contribute to its growth and success.
