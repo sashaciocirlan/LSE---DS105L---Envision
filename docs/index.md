@@ -59,7 +59,7 @@ While not all of these questions fell strictly within the scope of our analysis,
 
 ## 👨‍💻 Data Sources
 We used two sources of data for our research:<br>
-* Billboard via [Python Package](pypi.python.org/pypi/billboard.py)
+* Billboard via [Python Package](https://pypi.org/project/billboard.py/) 
 * Spotify via [Spotify API](https://developer.spotify.com/documentation/web-api) 
 <br>
 
