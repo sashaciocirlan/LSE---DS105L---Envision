@@ -128,13 +128,13 @@ We encountered a collaboration issue as there was a misalignment in our variable
 
 
 
-## Data Visualisation:
-![danceability](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/6dd6e42b-3e5d-4340-8f9a-93ccbdb5087c)
-![energy](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/a5c72a68-013d-4d35-80c6-c04f2fa9e8ab)
-![key](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/703565c2-e072-4e9d-8665-6bb8a2b6f114)
-![loudness](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/e96e682f-7fa4-4fcb-a9c6-cddb864fe43d)
-![mode](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/279db048-d5e8-4676-9ca0-586833026fc5)
-![speechiness](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/23df194c-7588-4f6c-a74d-affa3bfa2658)
+## Data Visualisation:!
+[dance](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/e5e7fc16-1663-4539-ae89-e3847e8fb31a)
+![energy](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/d1d7d8d2-1007-455b-b4b3-b45bfc53b422)
+![key](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/b2bae055-9c2c-43b8-a19f-3408a446e3ff)
+![loudness](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/50d14a04-c45d-4109-b231-da0a67ebd785)
+![mode](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/60b3f036-7a72-4152-973e-56ee29d88bb4)
+![speechiness](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/409686fd-81bf-448f-a2ca-ad0b776c997a)
 ![avg_parallel](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/29ac8227-b58b-4057-9772-38553d1cc4bf)
 
 
