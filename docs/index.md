@@ -153,7 +153,7 @@ To visualise how the audio features of the most popular songs have changed over 
 
 2. Energy
 <p align="center">
-  <img width="450" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
+  <img width="450" alt="Energy.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/3e86c41f-645b-4249-9cc9-4e95bc11f943">
 </p>
 
    - Similarly, most popular songs tend to be energetic, with most songs having energy scores of above 0.5. 
@@ -161,7 +161,7 @@ To visualise how the audio features of the most popular songs have changed over 
 
 3. Speechiness
 <p align="center">
-  <img width="450" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
+  <img width="450" alt="Speechiness.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/72cfa4f2-cf6d-421f-b456-6bf05613c4d8">
 </p>
 
    - Almost all of the songs have speechiness scores of below 0.5, with only 3 points on the scatter plot being above 0.5. This indicates a very strong likelihood that a popular song would definitely have more music and singing than spoken word.
@@ -169,7 +169,7 @@ To visualise how the audio features of the most popular songs have changed over 
 
 4. Acousticness
 <p align="center">
-  <img width="450" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
+  <img width="450" alt="Acousticness.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/49722bff-4be9-41d9-a226-ea4f0ca754be">
 </p>
 
    - Most songs have acousticness scores of below 0.5, which means that the most popular songs tend to have electronic production. However, there are still a significant proportion of popular songs that have acousticness scores of above 0.5, which means that acoustic songs have some popularity as well.
@@ -177,7 +177,7 @@ To visualise how the audio features of the most popular songs have changed over 
 
 5. Instrumentalness
 <p align="center">
-  <img width="450" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
+  <img width="450" alt="Instrumentalness.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/57443fa0-fd49-4433-bc24-63a567e072aa">
 </p>
 
    - The vast majority of popular songs are not instrumental at all, which means that there will almost always be vocals over the music in popular songs. This makes sense as this is the standard for pop music.
@@ -185,7 +185,7 @@ To visualise how the audio features of the most popular songs have changed over 
 
 6. Loudness
 <p align="center">
-  <img width="450" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
+  <img width="450" alt="Loudness.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/1f57c240-0153-4d66-81a2-32c5f128774b">
 </p>
 
    - Most songs are between -8 and -4 decibels which is relatively loud.
@@ -193,7 +193,7 @@ To visualise how the audio features of the most popular songs have changed over 
 
 7. Valence
 <p align="center">
-  <img width="450" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
+  <img width="450" alt="Valence.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/63934284-3d55-4cab-b634-1050b0b00f3a">
 </p>
 
    - Valence has the most spread amongst all of the audio features. In general, equal numbers of happy and sad songs have become popular.
@@ -201,7 +201,7 @@ To visualise how the audio features of the most popular songs have changed over 
 
 8. Tempo
 <p align="center">
-  <img width="450" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
+  <img width="450" alt="Tempo.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/621ecd4d-9c2b-4bd5-8f1f-9ab8aa2bda5f">
 </p>
 
    - The tempo of most songs tend to be relatively upbeat between 100-150 bpm (for reference, normal resting heart rate is around 60-100 bpm).
@@ -209,7 +209,7 @@ To visualise how the audio features of the most popular songs have changed over 
 
 9. Duration
 <p align="center">
-  <img width="450" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
+  <img width="450" alt="Duration.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/66d176f0-f304-4fa3-9de5-b2358470a934">
 </p>
 
    - Most of the popular songs last between 100000 and 250000 ms long (between 1:40 mins and 4:00 mins). 
