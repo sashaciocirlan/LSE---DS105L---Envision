@@ -120,6 +120,13 @@ Challenges
 
 
 ## Data Visualisation:
+![avg_audio_features](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/b063594f-9fc3-4111-a2ce-4b930d36fcac)
+![avg_danceability](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/6cccb8d0-ee2f-4bdf-bbd9-c35c3320d984)
+![avg_energy](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/113c1cee-429a-4b1e-ab75-83c939aaab32)
+![avg_key](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/a7100c42-1fb6-4cf8-8c40-808d072971d1)
+![avg_mode](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/8a249a5f-871b-41d9-9ba2-ef9fc3a5e226)
+![avg_instrumentalness](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/1d303605-ad37-4096-bf64-8c744cfc93ed)
+![avg_valence](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/19f82ab9-63b7-454d-aebc-fa4ff0785f2a)
 
 
 ## Challenges:
