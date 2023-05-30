@@ -129,6 +129,23 @@ We have already found the values of each audio feature for each individual song 
 
 
 ## Data Visualisation:
+The objective of the first visualisation is to see if the most popular artists differ greatly from the most popular songs (in terms of their audio features) over the past 5 years.<br>
+In the previous section, we have already calculated the difference between the average audio feature values of the top songs and top artists. In order to visualise this data, a radar chart was created using the plotly package. Because the radar chart required all the different categories (ie. audio features) to be measured on the same scale, the loudness, tempo and duration features were dropped from the data as they did not follow the same measurement scale (loudness was measured in decibels, tempo in beats per minute and duration in milliseconds). All the other features were measured on a scale between 0 and 1.<br>
+The resulting radar chart is as follows:<br>
+PIC (ROUGH) <br>
+On the radar chart, a value of 0 means that the average value of the audio feature for an artist is the same as that of the most popular songs. For example, the danceability of this artist’s songs is at the same level as the most popular songs of the past 5 years. This means that as an artist’s value moves further away from 0, their songs increasingly differ from the most popular songs of the past 5 years.<br>
+In general, the plot shows that most of these artists’ values hover around 0 across all audio features, which means that their music closely matches the type of music that has remained popular over the past 5 years. The audio features that appear to have the least deviation across artists include instrumentalness, danceability, and speechiness. For some audio features, there are a few significant outliers that demonstrate their difference from the current music landscape.<br>
+The artist that appears to have the most deviation from the most popular songs is Billie Eilish. Her acousticness score is almost 0.6 higher than the most popular songs, and her energy score is about 0.4 lower as well. This means that her music tends to be a lot more acoustic and less energetic than a typical song one would hear on the radio today.<br>
+Other artists that appear to have visually significant deviations from the most popular songs include Lil Baby and DaBaby, whose songs have a speechiness score of about 0.2 more than the rest. This makes sense as they are rappers, which explains why there would be more spoken word in their songs. While Drake and Doja Cat, who are also in the top 10 artists list, are also rappers, their most popular songs over the past 5 years have been more pop than rap, as they sing more frequently than rap. That could explain why even though they both have the next-highest speechiness scores, they remain quite close to the overall average set by the most popular songs.
+
+
+
+<br>
+<br>
+<br>
+
+
+
 ![dance](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/3ac35441-36e8-40d6-af4e-a08be05ed33d)
 ![energy](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/d1d7d8d2-1007-455b-b4b3-b45bfc53b422)
 ![key](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/11cf673c-ed6f-421d-a2db-fa95b89b1a36)
