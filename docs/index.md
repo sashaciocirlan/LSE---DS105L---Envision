@@ -275,31 +275,31 @@ To visualise how the audio features of the most popular songs have changed over 
    - Most of the popular songs last between 100000 and 250000 ms long (between 1:40 mins and 4:00 mins). 
    - Trendline is only slightly decreasing, but the average has still remained around 200000 ms (about 3:20 mins) over the years. The decreasing trendline aligns with the trend nowadays in pop music of songs getting shorter because of the growing popularity of streaming. This is because shorter songs are able to be streamed more times, leading to more revenue earned for artists and record companies.
 
-### 🕛 Conclusions: 
+## 🕛 Conclusions: 
 
 Successful artists, while following certain industry benchmarks, also introduce their own unique elements that have the potential to influence future music trends.
 
-## Acoustic & Instrumental Trends:
+#### Acoustic & Instrumental Trends:
 Interestingly, our investigation discovered a distinct anomaly - Billie Eilish's music showcases a significantly higher degree of acousticness and instrumentalness compared to industry norms. Eilish's innovative blend of acoustic textures and experimental instrumentals might be indicative of a renaissance of these elements in popular music. Although the industry currently leans towards electronic production, Eilish's success could inspire other artists to revisit and redefine the role of acoustic and instrumental elements in their music, leading to a gradual resurgence of these features.
 
-## Speechiness Trends:
+#### Speechiness Trends:
 DaBaby and Lil Baby, scored unusually high in terms of speechiness, suggesting a higher degree of spoken words in their songs compared to typical popular music. This divergence might signal an ongoing evolution of the genre, as artists increasingly blend musical and spoken elements to engage listeners in new ways. Looking forward, this could mean an expansion of the stylistic boundaries of popular music, with the increased integration of spoken word elements, particularly in genres like hip-hop and rap.
 
-## Danceability & Tempo Trends:
+#### Danceability & Tempo Trends:
 With the rising trends of danceability and tempo across the industry, it's evident that artists like Doja Cat, Drake, and Post Malone, who already align with these benchmarks, are effectively tapping into listeners' preferences for energetic and upbeat music. This suggests that the emphasis on creating music that is rhythmically engaging and uplifting will continue to grow, shaping the future sound of popular music.
 
-## Valence Trends:
+#### Valence Trends:
 Taylor Swift's consistent success with high-valence songs, those provoking feelings of positivity, underscores listeners' ongoing affinity for music that stimulates uplifting emotions. This could lead to an increasing number of artists incorporating more optimistic themes into their music, fueling the trend towards higher valence scores.
 
-## Duration Trends: 
+#### Duration Trends: 
 The shrinking duration of songs shows that brevity is the new norm in the music industry. As streaming platforms dominate, artists are looking to maximize streams and revenue by delivering shorter songs that pack a punch.
 
-## The Future of Music:
+#### The Future of Music:
 In essence, this in-depth study suggests that the future of popular music is set to be an exciting blend of innovation and adaptation. It's likely that artists will continue to experiment with their music by pushing genre boundaries, revisiting traditional elements, and amplifying the emotional resonance of their songs.
 
 However, they will also have to strike a balance with prevailing industry trends, aligning their music with the evolving preferences of listeners. As we continue to move forward, the artists who can best navigate this delicate balance of tradition and innovation will shape the future landscape of popular music, leaving their unique imprint on the evolving rhythm of the industry.
 
-### 🌟 Next Steps: 
+## 🌟 Next Steps: 
 
 We know that our analysis only scratches the surfaces of an ever-changing and fascinating industry that we all love - music. As we move forward we aim to continue to develop our skills acquired in DS105 and leverage them to learn new insights about music and maybe achieve our initial ambitious goals to create a ML model =) 
 
