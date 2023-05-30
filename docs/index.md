@@ -269,12 +269,49 @@ To visualise how the audio features of the most popular songs have changed over 
    - Most of the popular songs last between 100000 and 250000 ms long (between 1:40 mins and 4:00 mins). 
    - Trendline is only slightly decreasing, but the average has still remained around 200000 ms (about 3:20 mins) over the years. The decreasing trendline aligns with the trend nowadays in pop music of songs getting shorter because of the growing popularity of streaming. This is because shorter songs are able to be streamed more times, leading to more revenue earned for artists and record companies.
 
+### 🕛 Conclusions: 
 
+Successful artists, while following certain industry benchmarks, also introduce their own unique elements that have the potential to influence future music trends.
 
+## Acoustic & Instrumental Trends:
+Interestingly, our investigation discovered a distinct anomaly - Billie Eilish's music showcases a significantly higher degree of acousticness and instrumentalness compared to industry norms. Eilish's innovative blend of acoustic textures and experimental instrumentals might be indicative of a renaissance of these elements in popular music. Although the industry currently leans towards electronic production, Eilish's success could inspire other artists to revisit and redefine the role of acoustic and instrumental elements in their music, leading to a gradual resurgence of these features.
 
+## Speechiness Trends:
+DaBaby and Lil Baby, scored unusually high in terms of speechiness, suggesting a higher degree of spoken words in their songs compared to typical popular music. This divergence might signal an ongoing evolution of the genre, as artists increasingly blend musical and spoken elements to engage listeners in new ways. Looking forward, this could mean an expansion of the stylistic boundaries of popular music, with the increased integration of spoken word elements, particularly in genres like hip-hop and rap.
 
-## Conclusion:
-## Work Distribution
+## Danceability & Tempo Trends:
+With the rising trends of danceability and tempo across the industry, it's evident that artists like Doja Cat, Drake, and Post Malone, who already align with these benchmarks, are effectively tapping into listeners' preferences for energetic and upbeat music. This suggests that the emphasis on creating music that is rhythmically engaging and uplifting will continue to grow, shaping the future sound of popular music.
+
+## Valence Trends:
+Taylor Swift's consistent success with high-valence songs, those provoking feelings of positivity, underscores listeners' ongoing affinity for music that stimulates uplifting emotions. This could lead to an increasing number of artists incorporating more optimistic themes into their music, fueling the trend towards higher valence scores.
+
+## Duration Trends: 
+The shrinking duration of songs shows that brevity is the new norm in the music industry. As streaming platforms dominate, artists are looking to maximize streams and revenue by delivering shorter songs that pack a punch.
+
+## The Future of Music:
+In essence, this in-depth study suggests that the future of popular music is set to be an exciting blend of innovation and adaptation. It's likely that artists will continue to experiment with their music by pushing genre boundaries, revisiting traditional elements, and amplifying the emotional resonance of their songs.
+
+However, they will also have to strike a balance with prevailing industry trends, aligning their music with the evolving preferences of listeners. As we continue to move forward, the artists who can best navigate this delicate balance of tradition and innovation will shape the future landscape of popular music, leaving their unique imprint on the evolving rhythm of the industry.
+
+### 🌟 Next Steps: 
+
+We know that our analysis only scratches the surfaces of an ever-changing and fascinating industry that we all love - music. As we move forward we aim to continue to develop our skills acquired in DS105 and leverage them to learn new insights about music and maybe achieve our initial ambitious goals to create a ML model =) 
+
+What could we do in the future? 
+
+1. Investigate artist influence on industry trends: We could perform a more in-depth analysis on our top 10 artists and determine if their music has had a noticeable impact on the industry benchmarks. Do these artists inspire a change in the music scene, or are they successful because they closely align with the benchmarks? Identifying songs and artists that deviated from the norm before it became popular could help answer these questions.
+
+2. Understand trends in less successful artists: We could also examine the characteristics of lower-rated artists. Are they following the trends set by the industry, or are they trying to innovate in different ways? Comparing their music features with those of successful artists could reveal interesting patterns and insights.
+
+3. Temporal analysis of artist adaptation: Another interesting angle could be to track the evolution of artists over time. Do artists adapt their music to fit the evolving industry benchmarks, or do they maintain a consistent style regardless of the industry's trends?
+
+4. Predictive modelling: Based on our current findings and further explorations, we could attempt to build a model that predicts the success of a song based on its audio features. This would be a significant step forward in understanding what makes a song popular.
+
+The overarching aim would be to delve deeper into the dynamics between individual artist success and industry-wide trends. Is it the case of the industry shaping the artist, or the artist shaping the industry, or perhaps a bit of both? The intriguing interplay between the individual and the collective presents a rich seam of exploration for our next steps in this research project.
+
+To be continued...
+
+## 🏀 Work Distribution
 Our project was collaborative, and therefore required all of our participation and contributions in order to succeed. Although we divided group responsibilities by strengths, and therefore most efficiently, we also challenged ourselves to take on tasks that were outside of our comfort zone and provided opportunity to learn the technical, organisational and design skills required for this project.<br>
 
 ### Kim 
@@ -291,6 +328,5 @@ Sasha played an integral role in bridging the web-pages overall strategy to its 
 
 ### Jacen
 Jacen anchored the web-pages analysis by establishing industry benchmarks. In particular, Jacen utilised the Spotify API to investigate the audio features of the top 50 songs, per month, for the last five years. This acted as a reference point for the latter half of our investigation, in which we compared this 'benchmark' to the top ten most popular artists. Moreover, Jacen provided an excellent visual representation of this relationship in his usage of Plotnine to create a radar graph.
-
 
 
