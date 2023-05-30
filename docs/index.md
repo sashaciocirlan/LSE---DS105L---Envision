@@ -121,7 +121,7 @@ Spotify's weekly charts did not provide easy access to their historical data, ma
 We encountered a collaboration issue as there was a misalignment in our variable names and general code style. This lack of coherence in our functions between group members initially prevented us from collecting the data. For instance, one collaborator used the variable name 'Artist' while another used 'Top Ten Artist'.|To resolve this issue, we carefully reviewed and adjusted the variable names to ensure consistency. This enabled us to successfully execute the code.|Although seemingly minor, we argue that this is a common yet deceptively difficult challenge faced by data scientists when collaborating. As a result, we adopted a practice of establishing a baseline 'style' at the beginning of each collaborative coding session, which greatly streamlined the process.
 
 
-## 📈 Data Analysis
+## 🧐 Data Analysis
 
 ### Determining "Industry Benchmarks"
 We have already collected the values of each audio feature for individual songs over the past 5 years. Now, our goal is to consolidate this data into an "industry benchmark" that provides an overall perspective of the sound characteristics found in the most popular songs. To achieve this, we have calculated weighted averages for each audio feature.
