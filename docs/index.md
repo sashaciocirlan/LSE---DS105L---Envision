@@ -198,8 +198,6 @@ The results are very varied on the graph, inidicating there's a big difference i
 
 
 <br>
-<br>
-<br>
 
 ### Plotting into Dataframe
 
