@@ -72,6 +72,10 @@ Refer to below for our obtained historic trend from Billboard.py<br>
 
 #### Data Cleaning and Visualisation
 Below shows a cleaned data frame, sorted artists by rank in charts, renamed columns, which made them easier to work with in future visualisations.<br>
+<p align="middle">
+  <img width="500" alt="Billboard Data Cleaning.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/cee5feaf-02f7-4a76-9e24-333772712425">
+  <img width="500" alt="Billboard Data Visualisation.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/be9c08c7-d2e4-4b7b-8125-df422bdfc3d5">
+</p>
 
 
 
