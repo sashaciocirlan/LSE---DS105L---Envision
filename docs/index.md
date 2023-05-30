@@ -113,7 +113,7 @@ In Step 3, our objective was to analyze the audio features of the top ten artist
 ## 💪🏼 Data Collection Challenges
 Throughout the data collection section of our investigation our team encountered several challenges. However, through diligent problem-solving and collaboration, our team successfully devised solutions for each of these challenges.<br>
 
-Challenge|Solution|Outcome
+😰 Challenge|✅ Solution|📈 Outcome
 :---|:---|:---
 One major hurdle was the absence of a direct Billboard API, which was terminated in May 2013. Therefore, we could not retrieve the aggregated data or directly use Billboard's resources for aggregation.|We found a Python package, Billboard.py, on StackOverflow which helped us aggregate the data. With this, we could identify the ten artists with the most entries on the weekly charts over the past five years.|This underlined the value of leveraging existing solutions to overcome data analysis problems and avoid needing to reinvent the wheel. Forums like StackOverflow are particularly helpful for this.
 Directly searching for the most popular artists was not possible as the Billboard Hot 100 features popular songs rather than individual artists.|We incorporated an extra step of identifying the artist behind each entry, and then we summed up all artists' songs total number of entries throught 5 years (52 Top 100 charts/year) |We got a strong indicator of the top 10 artists in the past 5 years (e.g. Drake has over 800 total entries in all charts) and we used the Top 10 list we compiled as a baseline for further analysis.
