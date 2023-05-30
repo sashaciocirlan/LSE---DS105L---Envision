@@ -167,45 +167,45 @@ To visualise how the audio features of the most popular songs have changed over 
    - Almost all of the songs have speechiness scores of below 0.5, with only 3 points on the scatter plot being above 0.5. This indicates a very strong likelihood that a popular song would definitely have more music and singing than spoken word.
    - The trendline is going down slightly, and visually there are fewer songs with scores above 0.3 as time passes. This could indicate that such songs (like rap songs) could be getting less popular over time but only marginally.
 
-1. Danceability
+4. Acousticness
 <p align="center">
   <img width="450" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
 </p>
 
-   - The danceability scatter plot shows that most of the top songs have a value of more than 0.5, which indicates that popular songs tend to be danceable.
-   - However, the trendline in red is slightly decreasing. Even though it might indicate that songs are becoming less danceable, the small gradient of the slope does not necessarily show a significant trend.
+   - Most songs have acousticness scores of below 0.5, which means that the most popular songs tend to have electronic production. However, there are still a significant proportion of popular songs that have acousticness scores of above 0.5, which means that acoustic songs have some popularity as well.
+   - The trendline is increasing but only very slightly, which means we cannot make any meaningful conclusions about the trend of songs becoming more acoustic.
 
-1. Danceability
+5. Instrumentalness
 <p align="center">
   <img width="450" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
 </p>
 
-   - The danceability scatter plot shows that most of the top songs have a value of more than 0.5, which indicates that popular songs tend to be danceable.
-   - However, the trendline in red is slightly decreasing. Even though it might indicate that songs are becoming less danceable, the small gradient of the slope does not necessarily show a significant trend.
+   - The vast majority of popular songs are not instrumental at all, which means that there will almost always be vocals over the music in popular songs. This makes sense as this is the standard for pop music.
+   - The trendline virtually remains unchanged at close to zero, which indicates that popular songs have consistently remained non-instrumental.
 
-1. Danceability
+6. Loudness
 <p align="center">
   <img width="450" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
 </p>
 
-   - The danceability scatter plot shows that most of the top songs have a value of more than 0.5, which indicates that popular songs tend to be danceable.
-   - However, the trendline in red is slightly decreasing. Even though it might indicate that songs are becoming less danceable, the small gradient of the slope does not necessarily show a significant trend.
+   - Most songs are between -8 and -4 decibels which is relatively loud.
+   - Trendline is slightly decreasing which means that are getting softer, but the small gradient means that we cannot say for sure if there really is such a trend.
 
-1. Danceability
+7. Valence
 <p align="center">
   <img width="450" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
 </p>
 
-   - The danceability scatter plot shows that most of the top songs have a value of more than 0.5, which indicates that popular songs tend to be danceable.
-   - However, the trendline in red is slightly decreasing. Even though it might indicate that songs are becoming less danceable, the small gradient of the slope does not necessarily show a significant trend.
+   - Valence has the most spread amongst all of the audio features. In general, equal numbers of happy and sad songs have become popular.
+   - Trendline is slightly increasing but it is just straddling 0.5. Since that is basically the average value, no real trend can be inferred regarding valence.
 
-1. Danceability
+8. Tempo
 <p align="center">
   <img width="450" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
 </p>
 
-   - The danceability scatter plot shows that most of the top songs have a value of more than 0.5, which indicates that popular songs tend to be danceable.
-   - However, the trendline in red is slightly decreasing. Even though it might indicate that songs are becoming less danceable, the small gradient of the slope does not necessarily show a significant trend.
+   - The tempo of most songs tend to be relatively upbeat between 100-150 bpm (for reference, normal resting heart rate is around 60-100 bpm).
+   - The trend line is slightly increasing, which could mean that popular songs are getting faster but only slightly.
 
 
 <br>
