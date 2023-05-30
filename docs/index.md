@@ -32,7 +32,7 @@ In Step 1, our objective was to investigate the top 10 artists of the past 5 yea
 Challenge|Solution|Outcome
 :---|:---|:---
 One major hurdle was the absence of a direct Billboard API, which was terminated in May 2013. Therefore, we could not retrieve the aggregated data or directly use Billboard's resources for aggregation.|We found a Python package, Billboard.py, on StackOverflow which helped us aggregate the data. With this, we could identify the ten artists with the most entries on the weekly charts over the past five years.|This underlined the value of leveraging existing solutions to overcome data analysis problems and avoid needing to reinvent the wheel. Forums like StackOverflow are particularly helpful for this.
-Directly searching for the most popular artists was not possible as the Billboard Hot 100 features popular songs rather than individual artists.|We had to incorporate an extra step of identifying the artist behind each entry.|Waiting.
+Directly searching for the most popular artists was not possible as the Billboard Hot 100 features popular songs rather than individual artists.|We incorporated an extra step of identifying the artist behind each entry.|Waiting.
 
 Refer to below for our obtained historic trend from Billboard.py<br>
 <img width="484" alt="Screenshot 2023-05-29 at 12 32 09" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/12870658/54f6ef69-a7f6-4d7f-97d0-b0bee2ea9404">
