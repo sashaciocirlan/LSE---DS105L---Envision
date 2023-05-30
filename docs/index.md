@@ -203,7 +203,7 @@ To visualise how the audio features of the most popular songs have changed over 
 </p>
 
    - The danceability scatter plot shows that most of the top songs have a value of more than 0.5, which indicates that popular songs tend to be danceable.
-   - However, the trendline in red is slightly decreasing. Even though it might indicate that songs are becoming less danceable, the small gradient of the slope does not necessarily show a significant trend.
+   - However, the trendline in red is slightly decreasing. The gradient shows that songs are becoming slighlty less danceable.
 
 2. Energy
 <p align="center">
@@ -211,7 +211,7 @@ To visualise how the audio features of the most popular songs have changed over 
 </p>
 
    - Similarly, most popular songs tend to be energetic, with most songs having energy scores of above 0.5. 
-   - Here, the trend line is increasing but only slightly, so we cannot say for sure that songs are getting more energetic over time. 
+   - Here, the trend line is increasing so we can cautiously observe that songs are becoming more energetic over time.  
 
 3. Speechiness
 <p align="center">
@@ -219,7 +219,7 @@ To visualise how the audio features of the most popular songs have changed over 
 </p>
 
    - Almost all of the songs have speechiness scores of below 0.5, with only 3 points on the scatter plot being above 0.5. This indicates a very strong likelihood that a popular song would definitely have more music and singing than spoken word.
-   - The trendline is going down slightly, and visually there are fewer songs with scores above 0.3 as time passes. This could indicate that such songs (like rap songs) could be getting less popular over time but only marginally.
+   - The trendline is going down slightly, and visually there are fewer songs with scores above 0.3 as time passes. This indicates that such songs (like rap songs) could be getting less popular over time.
 
 4. Acousticness
 <p align="center">
@@ -259,7 +259,7 @@ To visualise how the audio features of the most popular songs have changed over 
 </p>
 
    - The tempo of most songs tend to be relatively upbeat between 100-150 bpm (for reference, normal resting heart rate is around 60-100 bpm).
-   - The trend line is slightly increasing, which could mean that popular songs are getting faster but only slightly.
+   - The trend line is slightly increasing, which could mean that popular songs are getting faster.
 
 9. Duration
 <p align="center">
