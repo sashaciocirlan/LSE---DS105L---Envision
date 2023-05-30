@@ -93,7 +93,7 @@ Add the cleaned and visualised image here for Spotify API
 
 #### Audio Features
 We followed the definition of audio features provided by Spotify: (https://developer.spotify.com/documentation/web-api/reference/get-several-audio-features)<br>
-We followed the definition of audio features provided by Spotify: (https://developer.spotify.com/documentation/web-api/reference/get-several-audio-features)<br>
+
 
 🕺 **Danceability**: How suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength and overall regularity. 
 
@@ -135,8 +135,6 @@ We followed the definition of audio features provided by Spotify: (https://devel
 
 All features, barring **Duration** and **Loudness**, utilise a scale of 0 to 1, with 0 being least (e.g. lowest possible speechiness) and 1 being most (e.g. highest possible speechiness). 
 
-Step 3: 
-In Step 3, our objective was to analyze the audio features of the top ten artists' songs from the past five years.
 
 
 ## 💪🏼 Data Collection Challenges
