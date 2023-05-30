@@ -145,7 +145,7 @@ To visualise how the audio features of the most popular songs have changed over 
 
 1. Danceability
 <p align="center">
-  <img width="500" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
+  <img width="450" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
 </p>
 
    - The danceability scatter plot shows that most of the top songs have a value of more than 0.5, which indicates that popular songs tend to be danceable.
