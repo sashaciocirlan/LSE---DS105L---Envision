@@ -98,7 +98,8 @@ A function that will find an artist's spotify ID using Spotify API:
 A function that will find an artist's sonngs and adds it to a dataframe
 <img width="452" alt="image" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/9c66b91e-4054-4498-a4d7-53de3025e6ff">
 
-Rounding the audio feature average so the data is more presentable and easier to understand
+Rounding the audio feature average so the data is presentable and easier to understand
+
 <img width="452" alt="image" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/936bb3af-aad8-4501-ba9d-e6885b87b7b4">
 
 
