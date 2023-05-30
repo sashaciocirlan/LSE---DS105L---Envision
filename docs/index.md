@@ -9,7 +9,7 @@ date-meta: 20 March 2023
 **Team members:** 
 
 - [Sasha Ciocirlan](): I'm Sasha, a final-year Politics and Economics student at the LSE. Although I'm not your typical number-cruncher, I've taken a detour into data science and found a new passion, and am bringing a deep love for music to the project.
-<img src="./Sasha.jpeg" style="height:10%;width:10%">
+<img src="./Sasha.jpeg" style="height:65%;width:65%">
 
 - [Jacen](): I'm Jacen, a first-year Politics and Data Science student who secretly wishes there was a degree in Pop Music [with Data Science]. You will rarely find me without my earphones, which have recently been blasting Kylie Minogue and K-Pop stars Le Sserafim.
 - [Toni Byfield](): I'm Toni, a second-year economics student. I enjoy coding and love music. I've recently been hooked on the Cults, a favourite is 'Gilded Lily'. Check 'em out!
