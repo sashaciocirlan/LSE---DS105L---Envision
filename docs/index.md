@@ -207,6 +207,14 @@ To visualise how the audio features of the most popular songs have changed over 
    - The tempo of most songs tend to be relatively upbeat between 100-150 bpm (for reference, normal resting heart rate is around 60-100 bpm).
    - The trend line is slightly increasing, which could mean that popular songs are getting faster but only slightly.
 
+9. Duration
+<p align="center">
+  <img width="450" alt="Danceability.png" src="https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/114475296/ce25d581-ea4e-4c4f-8db2-c5bc99e55b5b">
+</p>
+
+   - Most of the popular songs last between 100000 and 250000 ms long (between 1:40 mins and 4:00 mins). 
+   - Trendline is only slightly decreasing, but the average has still remained around 200000 ms (about 3:20 mins) over the years. The decreasing trendline aligns with the trend nowadays in pop music of songs getting shorter because of the growing popularity of streaming. This is because shorter songs are able to be streamed more times, leading to more revenue earned for artists and record companies.
+
 
 <br>
 <br>
