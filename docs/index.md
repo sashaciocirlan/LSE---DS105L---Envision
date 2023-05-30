@@ -210,11 +210,8 @@ To visualise how the audio features of the most popular songs have changed over 
 
 ![dance](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/3ac35441-36e8-40d6-af4e-a08be05ed33d)
 ![energy](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/d1d7d8d2-1007-455b-b4b3-b45bfc53b422)
-![key](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/11cf673c-ed6f-421d-a2db-fa95b89b1a36)
-![loudness](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/a5d3d0b5-e571-4894-b5cd-80434894f0cc)
-![mode](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/60b3f036-7a72-4152-973e-56ee29d88bb4)
 ![speechiness](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/409686fd-81bf-448f-a2ca-ad0b776c997a)
-![avg_parallel](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/29ac8227-b58b-4057-9772-38553d1cc4bf)
+![Parallelplot](https://github.com/sashaciocirlan/LSE---DS105L---Envision/assets/127428021/64f854ea-8fb2-4d94-b92a-fe5fc1d1a308)
 
 
 ## Challenges:
